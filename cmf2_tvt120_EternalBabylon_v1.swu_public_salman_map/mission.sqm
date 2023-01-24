@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1345.0493,106.84078,1043.5375};
-		dir[]={0.14125238,-0.58899397,-0.79569709};
-		up[]={0.10294883,0.80813736,-0.57992709};
-		aside[]={-0.98460615,0,-0.17478757};
+		pos[]={9058.7207,80.759659,9209.2148};
+		dir[]={-0.012071002,-0.79404515,0.60775542};
+		up[]={-0.015767282,0.60785341,0.79389298};
+		aside[]={0.99981254,3.4964046e-007,0.019857312};
 	};
 };
 binarizationWanted=0;
@@ -61,8 +61,7 @@ addons[]=
 	"A3_Structures_F_Civ_Lamps",
 	"A3_Supplies_F_Exp_Ammoboxes",
 	"potato_units",
-	"A3_Modules_F_Intel",
-	"A3_Modules_F_Multiplayer"
+	"A3_Modules_F_Intel"
 };
 class AddonsMetaData
 {
@@ -3830,7 +3829,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=163;
+		items=162;
 		class Item0
 		{
 			dataType="Logic";
@@ -4740,7 +4739,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_tank2";
+				name="west_tank_2";
 			};
 			id=3697;
 			type="CFP_B_USARMY_2003_M1A1_Abrams_DES_01";
@@ -4786,7 +4785,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_tank3";
+				name="west_tank_3";
 			};
 			id=3698;
 			type="CFP_B_USARMY_2003_M1A1_Abrams_DES_01";
@@ -4832,7 +4831,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_tank1";
+				name="west_tank_1";
 			};
 			id=3699;
 			type="CFP_B_USARMY_2003_M1A1_Abrams_DES_01";
@@ -4878,7 +4877,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_ammo";
+				name="west_truck_7";
 			};
 			id=3717;
 			type="CFP_B_USARMY_2003_MTVR_Ammo_DES_01";
@@ -4924,7 +4923,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_fuel";
+				name="west_truck_6";
 			};
 			id=3718;
 			type="CFP_B_USARMY_2003_MTVR_Refuel_DES_01";
@@ -4970,7 +4969,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_repair";
+				name="west_truck_5";
 			};
 			id=3719;
 			type="CFP_B_USARMY_2003_MTVR_Repair_DES_01";
@@ -5016,7 +5015,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_truck4";
+				name="west_truck_4";
 			};
 			id=3720;
 			type="CFP_B_USARMY_2003_MTVR_DES_01";
@@ -5108,7 +5107,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_truck3";
+				name="west_truck_3";
 			};
 			id=3724;
 			type="CFP_B_USARMY_2003_MTVR_DES_01";
@@ -5154,7 +5153,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_truck2";
+				name="west_truck_2";
 			};
 			id=3725;
 			type="CFP_B_USARMY_2003_MTVR_DES_01";
@@ -5200,7 +5199,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_truck1";
+				name="west_truck_1";
 			};
 			id=3726;
 			type="CFP_B_USARMY_2003_MTVR_DES_01";
@@ -5247,7 +5246,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ural1";
+				name="east_truck_4";
 			};
 			id=3732;
 			type="CFP_O_IQARMY_Ural_01";
@@ -5295,7 +5294,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ural2";
+				name="east_truck_3";
 			};
 			id=3733;
 			type="CFP_O_IQARMY_Ural_01";
@@ -5343,7 +5342,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ural3";
+				name="east_truck_2";
 			};
 			id=3734;
 			type="CFP_O_IQARMY_Ural_01";
@@ -5390,7 +5389,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ural4";
+				name="east_truck_1";
 			};
 			id=3735;
 			type="CFP_O_IQARMY_Ural_01";
@@ -5437,7 +5436,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_repair";
+				name="east_truck_7";
 			};
 			id=3736;
 			type="CFP_O_IQARMY_Ural_Repair_01";
@@ -5485,7 +5484,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_fuel";
+				name="east_truck_6";
 			};
 			id=3737;
 			type="CFP_O_IQARMY_Ural_Refuel_01";
@@ -5533,7 +5532,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ammo";
+				name="east_truck_5";
 			};
 			id=3738;
 			type="CFP_O_IQARMY_Ural_Ammo_01";
@@ -5580,7 +5579,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_arty1";
+				name="east_arty_2";
 			};
 			id=3742;
 			type="CFP_O_IQARMY_D30_01";
@@ -5614,7 +5613,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_arty2";
+				name="east_arty_1";
 			};
 			id=3743;
 			type="CFP_O_IQARMY_D30_01";
@@ -5648,7 +5647,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_shilka";
+				name="east_aa_2";
 			};
 			id=3745;
 			type="CFP_O_IQARMY_ZSU_23_4_01";
@@ -5696,7 +5695,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_tnk2";
+				name="east_tank_3";
 			};
 			id=3749;
 			type="CFP_O_IQARMY_T72_01";
@@ -5757,7 +5756,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_tnk3";
+				name="east_tank_2";
 			};
 			id=3750;
 			type="CFP_O_IQARMY_T72_01";
@@ -5818,7 +5817,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_tnk4";
+				name="east_tank_1";
 			};
 			id=3751;
 			type="CFP_O_IQARMY_T72_01";
@@ -5879,7 +5878,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_aa";
+				name="east_aa_1";
 			};
 			id=3757;
 			type="CFP_O_IQARMY_Ural_ZU_23_01";
@@ -6018,7 +6017,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_ifv3";
+				name="west_ifv_3";
 			};
 			id=3795;
 			type="CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01";
@@ -6064,7 +6063,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_ifv4";
+				name="west_ifv_4";
 			};
 			id=3796;
 			type="CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01";
@@ -6111,7 +6110,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ifv2";
+				name="east_ifv_3";
 			};
 			id=3805;
 			type="CFP_O_IQARMY_BMP_2_01";
@@ -6151,18 +6150,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1378.3713,9.5103045,921.6828};
+				position[]={1378.3713,9.5113049,921.6828};
 				angles[]={6.2791882,0,6.2551899};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="east_ifv3";
+				name="east_ifv_2";
 			};
 			id=3807;
 			type="CFP_O_IQARMY_BMP_2_01";
-			atlOffset=-0.00099992752;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6206,7 +6204,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ifv4";
+				name="east_ifv_1";
 			};
 			id=3808;
 			type="CFP_O_IQARMY_BMP_2_01";
@@ -6439,7 +6437,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_ifv2";
+				name="west_ifv_2";
 			};
 			id=4044;
 			type="CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01";
@@ -6485,7 +6483,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_ifv1";
+				name="west_ifv_1";
 			};
 			id=4045;
 			type="CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01";
@@ -6737,7 +6735,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_plane";
+				name="west_plane_1";
 				pylons=";FIR_Mk82_GP_P_3rnd_M;FIR_GBU39_P_4rnd_M;FIR_GBU10_PW1_P_1rnd_M;CUP_PylonPod_2Rnd_GBU12_M;;CUP_PylonPod_2Rnd_GBU12_M;FIR_GBU10_PW1_P_1rnd_M;FIR_GBU39_P_4rnd_M;;;240Rnd_Peral_A10C_CM_Chaffflare_M;";
 			};
 			id=4054;
@@ -7021,7 +7019,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_ifv1";
+				name="east_ifv_4";
 			};
 			id=4097;
 			type="CFP_O_IQARMY_BMP_2_01";
@@ -7068,7 +7066,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="east_tnk1";
+				name="east_tank_4";
 			};
 			id=3753;
 			type="CFP_O_IQARMY_T72_01";
@@ -17709,151 +17707,6 @@ class Mission
 		};
 		class Item156
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={1322.0929,9.3063545,928.33124};
-			};
-			id=5551;
-			type="ModuleRespawnVehicle_F";
-			atlOffset=2.8610229e-006;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleRespawnVehicle_F_ForcedRespawn";
-					expression="_this setVariable ['ForcedRespawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="0";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleRespawnVehicle_F_Init";
-					expression="_this setVariable ['Init',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
-					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleRespawnVehicle_F_DesertedDistance";
-					expression="_this setVariable ['DesertedDistance',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleRespawnVehicle_F_PositionType";
-					expression="_this setVariable ['PositionType',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="0";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ModuleRespawnVehicle_F_RespawnCount";
-					expression="_this setVariable ['RespawnCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ModuleRespawnVehicle_F_Position";
-					expression="_this setVariable ['Position',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="0";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ModuleRespawnVehicle_F_Wreck";
-					expression="_this setVariable ['Wreck',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="2";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ModuleRespawnVehicle_F_Delay";
-					expression="_this setVariable ['Delay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ModuleRespawnVehicle_F_ShowNotification";
-					expression="_this setVariable ['ShowNotification',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="1";
-						};
-					};
-				};
-				nAttributes=10;
-			};
-		};
-		class Item157
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -17900,7 +17753,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item158
+		class Item157
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17911,9 +17764,55 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="west_car5";
+				name="west_car_5";
 			};
 			id=5555;
+			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""CUP_arifle_M4A1_black"",""CUP_launch_M136"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_556x45_Stanag"",""CUP_M136_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_USPack_Coyote""],[4]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="potato_setVehicleAmmo_vehAmmoAttribute";
+					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item158
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8975.0918,22.602926,9317.7109};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="west_car_4";
+			};
+			id=5556;
 			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
 			class CustomAttributes
 			{
@@ -17951,15 +17850,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8975.0918,22.602926,9317.7109};
+				position[]={8970.4033,22.602926,9317.708};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="west_car4";
+				name="west_car_3";
 			};
-			id=5556;
+			id=5557;
 			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
 			class CustomAttributes
 			{
@@ -17997,15 +17896,15 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8970.4033,22.602926,9317.708};
+				position[]={8961.6641,22.602926,9317.7939};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="west_car3";
+				name="west_car_1";
 			};
-			id=5557;
+			id=5559;
 			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
 			class CustomAttributes
 			{
@@ -18043,59 +17942,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8961.6641,22.602926,9317.7939};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="west_car1";
-			};
-			id=5559;
-			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""CUP_arifle_M4A1_black"",""CUP_launch_M136"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_556x45_Stanag"",""CUP_M136_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_USPack_Coyote""],[4]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_setVehicleAmmo_vehAmmoAttribute";
-					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item162
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={8965.8799,22.602926,9317.7842};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="west_car2";
+				name="west_car_2";
 			};
 			id=5558;
 			type="CFP_B_USARMY_2003_HMMWV_Unarmed_DES_01";
@@ -18135,11 +17988,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=3;
+			nextID=2;
 		};
 		class Links
 		{
-			items=3;
+			items=2;
 			class Item0
 			{
 				linkID=0;
@@ -18155,16 +18008,6 @@ class Mission
 				linkID=1;
 				item0=4051;
 				item1=4050;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item2
-			{
-				linkID=2;
-				item0=5551;
-				item1=4097;
 				class CustomData
 				{
 					type="Sync";
