@@ -1,0 +1,37 @@
+// CMF description.ext
+class MissionSQM
+{
+	#include "mission.sqm"
+};
+
+// Misc settings
+disableChannels[] = {0,1,2,4,5,6};
+cmfDate = "17OCT2022";
+cmfVers = "CMF2 1.2";
+
+// Includes for gear
+#include "CfgLoadouts.hpp"
+#include "c\params.hpp"
+
+//
+class CfgFunctions 
+{ 
+	#include "KPCF\KPCF_functions.hpp"
+	#include "CfgFunctions.hpp"
+};
+
+
+// Respawn Settings
+respawn = "Base";
+Respawndelay = 999;
+DisabledAi = 1;
+respawnButton = 1;
+respawnOnStart = -1;
+
+// ACE killtracking
+class CfgDebriefingSections {
+	class acex_killTracker {
+		title = "Acex Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+};
