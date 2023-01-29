@@ -1,5 +1,5 @@
 // Add markers to each objective
-[] spawn CCO_fnc_initObjectiveMarkers;
+//[] spawn CCO_fnc_initObjectiveMarkers; // @Totyano is this gonna be implemented otherwise remove since you don't have the script
 
 opfWaves		= 0;
 opfMaxWaves		= 5;
