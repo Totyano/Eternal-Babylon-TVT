@@ -1,4 +1,4 @@
-class CCO
+class CCE
 {
     class reinforcements
     {
@@ -9,5 +9,9 @@ class CCO
     {
         class respawnVehicles{};
     };
-
+    class tnk
+    {
+        class suicideInit{};
+        class suicideDetonate{};
+    };
 };
