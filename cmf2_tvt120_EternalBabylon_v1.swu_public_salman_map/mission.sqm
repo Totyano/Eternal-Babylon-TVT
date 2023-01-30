@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=5566;
+		nextID=5567;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1289.5155,29.3661,927.2854};
-		dir[]={0.73578811,-0.67710555,0.013921079};
-		up[]={0.67698872,0.73587787,0.012809239};
-		aside[]={0.018916598,2.7410715e-007,-0.99984801};
+		pos[]={9014.748,104.01981,9197.585};
+		dir[]={0.15526868,-0.55915076,0.8143968};
+		up[]={0.10471857,0.82906598,0.54925734};
+		aside[]={0.9823063,0,-0.18728146};
 	};
 };
 binarizationWanted=0;
@@ -6955,11 +6955,11 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={1436.496,7.6739998,917.052};
+				position[]={1434.3561,8.1354971,917.32349};
+				angles[]={6.2744575,0,6.2671833};
 			};
-			title="Fedayen should have suicide vests that detonate on command";
+			title="Suicide vest box. Adds ace action once equipped";
 			id=4108;
-			atlOffset=-0.00027275085;
 		};
 		class Item103
 		{
@@ -15422,6 +15422,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						name="say2";
 						description="     Furat Squad Leader@   FURAT";
 						isPlayable=1;
 					};
@@ -15440,6 +15441,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						name="say1";
 						description="     Furat Medic";
 						isPlayable=1;
 					};
@@ -15639,46 +15641,6 @@ class Mission
 		{
 			dataType="Group";
 			side="East";
-			class Attributes
-			{
-			};
-			id=5497;
-			atlOffset=-9.804904;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF TNK1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_markers_addMarker";
-					expression="[_this, _value] call potato_markers_fnc_setMarker;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item143
-		{
-			dataType="Group";
-			side="East";
 			class Entities
 			{
 				items=3;
@@ -15829,7 +15791,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item144
+		class Item143
 		{
 			dataType="Group";
 			side="East";
@@ -15980,7 +15942,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item145
+		class Item144
 		{
 			dataType="Group";
 			side="East";
@@ -16130,7 +16092,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item146
+		class Item145
 		{
 			dataType="Group";
 			side="East";
@@ -16246,7 +16208,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item147
+		class Item146
 		{
 			dataType="Group";
 			side="East";
@@ -16362,7 +16324,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item148
+		class Item147
 		{
 			dataType="Group";
 			side="East";
@@ -16445,7 +16407,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item149
+		class Item148
 		{
 			dataType="Group";
 			side="East";
@@ -16939,7 +16901,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item150
+		class Item149
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -17097,7 +17059,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item151
+		class Item150
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -17254,7 +17216,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item152
+		class Item151
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -17411,7 +17373,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item153
+		class Item152
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17459,7 +17421,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item154
+		class Item153
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17505,7 +17467,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item155
+		class Item154
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17551,7 +17513,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item156
+		class Item155
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17597,7 +17559,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item157
+		class Item156
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17643,7 +17605,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item158
+		class Item157
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17689,7 +17651,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item159
+		class Item158
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17705,6 +17667,7 @@ class Mission
 			};
 			id=5563;
 			type="CFP_O_IQARMY_T72_01";
+			atlOffset=-0.0010185242;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17749,7 +17712,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item160
+		class Item159
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17808,6 +17771,40 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item160
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1434.1265,7.9237509,917.40131};
+				angles[]={6.2751913,0,6.2671809};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=5566;
+			type="Box_IED_Exp_F";
+			atlOffset=4.7683716e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[""V_TacVest_khk""],[10]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};

@@ -35,3 +35,43 @@ class CfgDebriefingSections {
 		variable = "acex_killTracker_outputText";
 	};
 };
+
+class CfgSounds
+{
+	class allah1
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah1";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah1.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah2
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah2";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah2.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah3
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah3";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah3.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah4
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah4";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah4.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+};
