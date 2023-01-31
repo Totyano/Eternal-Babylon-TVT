@@ -7,7 +7,7 @@
 
 // GEAR
 #define BASE_MEDICAL "ACE_elasticBandage:2","ACE_packingBandage:2","ACE_tourniquet:2","ACE_splint","kat_guedel","kat_chestSeal"
-#define MEDIC_MEDICAL "ACE_packingBandage:20","ACE_elasticBandage:20","ACE_splint:8","ACE_tourniquet:6","ACE_plasmaIV_500:4","kat_X_AED","kat_accuvac","kat_Pulseoximeter","kat_larynx","kat_aatKit","kat_guedel:5","kat_stethoscope","kat_chestSeal:2","kat_IO_FAST:2","kat_IV_16:6","ACE_morphine:8","ACE_epinephrine:8","ACE_adenosine:8","kat_Carbonate:4","kat_Painkiller:4","kat_nitroglycerin:4","kat_norepinephrine:4","kat_phenylephrine:4","kat_TXA:4","kat_atropine:4","kat_amiodarone:4","kat_naloxone:4","kat_lidocaine:4"
+#define MEDIC_MEDICAL "ACE_packingBandage:20","ACE_elasticBandage:20","ACE_splint:8","ACE_tourniquet:6","ACE_plasmaIV_500:4","ACE_salineIV_250:2","kat_X_AED","kat_accuvac","kat_Pulseoximeter","kat_larynx:5","kat_aatKit:6","kat_guedel:5","kat_stethoscope","kat_chestSeal:10","kat_IO_FAST:4","kat_IV_16:15","ACE_morphine:4","ACE_epinephrine:4","ACE_adenosine:4","kat_Carbonate:2","kat_Painkiller:2","kat_nitroglycerin:4","kat_norepinephrine:8","kat_phenylephrine:4","kat_TXA:8","kat_atropine:4","kat_amiodarone:4","kat_naloxone:4","kat_lidocaine:4","KAT_Empty_bloodIV_250:8"
 #define BASE_TOOLS "ACE_MapTools","ACE_IR_Strobe_item:2","ACE_Flashlight_XL50","ACE_SpraypaintRed","ACE_CableTie:2"
 #define BASE_LEADER_TOOLS "ACE_personalAidKit","ACE_Fortify"
 #define BASE_LINKED "ItemMap","ItemCompass","ItemWatch"
