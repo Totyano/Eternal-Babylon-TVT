@@ -16,7 +16,7 @@ cmfVers = "CMF2 1.2";
 //
 class CfgFunctions 
 { 
-	#include "KPCF\KPCF_functions.hpp"
+
 	#include "CfgFunctions.hpp"
 };
 
@@ -24,7 +24,7 @@ class CfgFunctions
 // Respawn Settings
 respawn = "Base";
 Respawndelay = 999;
-DisabledAi = 1;
+DisabledAi = 0;
 respawnButton = 1;
 respawnOnStart = -1;
 

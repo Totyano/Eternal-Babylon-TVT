@@ -26,7 +26,7 @@
 #define CARBINE_MAG "CUP_30Rnd_556x45_Stanag:10"
 // AR
 #define AR "CUP_lmg_M249"
-#define AR_MAG "CUP_200Rnd_TE4_Red_Tracer_556x45_M249:1", "potato_box_556x45_200rnd_reload_tracer_Red:2"
+#define AR_MAG "CUP_200Rnd_TE4_Red_Tracer_556x45_M249:3"
 // AT
 #define AT "CUP_launch_M136_Loaded"
 #define AT_MAG "CUP_M136_M:1"

@@ -16,22 +16,22 @@
 #define SFCAMO_HEADGEAR "PLOT_ARMOR_H_No_Hat"
 // Rifle
 #define RIFLE "CUP_arifle_AK47"
-#define RIFLE_MAG "potato_magazine_762x39_30rnd_tracer_Green:5",
+#define RIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:10",
 #define RIFLE_ATTACHMENTS ""
 #define AR_ATTACHMENTS RIFLE_ATTACHMENTS, ""
 #define ALT_OPTICS "optic_Aco","CUP_optic_CompM2_Black","CUP_optic_TrijiconRx01_black","CUP_optic_MRad",STANAG_OPTICS,WARSAW_OPTICS
 // GL Rifle
 #define GLRIFLE "CUP_arifle_AK47_GL"
-#define GLRIFLE_MAG "potato_magazine_762x39_30rnd_tracer_Green:5"
+#define GLRIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:10"
 #define GLRIFLE_MAG_FLARE "UGL_FlareWhite_F:4"
 #define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:6","1Rnd_SmokeRed_Grenade_shell:4","1Rnd_SmokeBlue_Grenade_shell:4",GLRIFLE_MAG_FLARE
 #define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:2"
 // Carbine
 #define CARBINE "CUP_arifle_AKS74U"
-#define CARBINE_MAG "potato_magazine_545x39_30rnd_reload_tracer_Green:5"
+#define CARBINE_MAG "CUP_30Rnd_TE1_Green_Tracer_545x39_AK74_plum_M:5"
 // AR
 #define AR "CUP_lmg_PKM"
-#define AR_MAG "potato_box_762x54_100rnd_reload_tracer_Green:5"
+#define AR_MAG "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M:5"
 // AT
 #define AT "CUP_launch_RPG7V"
 #define AT_MAG "CUP_PG7V_M:2"
@@ -59,7 +59,7 @@
 #define HAT_TRI_LO 
 #define HAT_MAG 
 // SAM
-#define SAM "CUP_launch_FIM92Stinger"
+#define SAM "CUP_launch_Igla"
 #define SAM_MAG 
 #define SAM_MAG2 
 // Sniper Rifle
@@ -166,6 +166,26 @@ class sf_rifleman {// Base SF
 
   
 };
+
+class sf_rifleman_02 {// Base SF
+
+  uniform[] = {SFCAMO_UNIFORM};
+  vest[] = {SFCAMO_VEST};
+  headgear[] = {SFCAMO_HEADGEAR};
+  backpack[] = {SFCAMO_BACKPACK};
+  backpackItems[] = {BASE_MEDICAL};
+  weapons[] = {"CUP_srifle_SVD"};
+  magazines[] = {"CUP_10Rnd_762x54_SVD_M:5",BASE_GRENADES};
+  items[] = {TOOLS,RADIO_SR};
+  linkedItems[] = {LINKED};
+  attachments[] = {"cup_muzzle_snds_kzrzp_svd","cup_svd_camo_d","cup_optic_pso_3"};
+  opticChoices[] = {ALT_OPTICS};
+  goggles[] = {"SP_Balaclava_White"};
+  face[] = {F_RUS};
+
+  
+};
+
 class sf_lat: sf_rifleman {// SF LAT
   magazines[] += {AT_MAG};
   launchers[] = {AT};
@@ -347,15 +367,15 @@ class hatag: rifleman {// HAT Spotter
 
 //SAM
 class msaml: sl {// SAM Lead
-  backpack[] = {CARRYALL};
+  backpack[] = {B_Carryall_oli};
   magazines[] += {SAM_MAG2};
 };
 class msamg: Fic_Soldier_Carbine {// SAM Gunner
-  SAM_GEAR(CARRYALL, SAM_MAG)
+  SAM_GEAR(B_Carryall_oli, SAM_MAG)
   launchers[] = {SAM};
 };
 class msamag: Fic_Spotter {// SAM Spotter/Ammo Bearer
-  SAM_GEAR(CARRYALL, SAM_MAG2)
+  SAM_GEAR(B_Carryall_oli, SAM_MAG2)
 };
 
 //Mortar

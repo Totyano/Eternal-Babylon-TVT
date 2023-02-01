@@ -32,13 +32,13 @@ A-10 (30min)
 CCO_vehs =
 [
 	//WEST
-	[west_tank_1,	true,	(20*60),	{}],
-	[west_tank_2,	true,	(20*60),	{}],
-	[west_tank_3,	true,	(20*60),	{}],
-	[west_ifv_1,	true,	(15*60),	{}],
-	[west_ifv_2,	true,	(15*60),	{}],
-	[west_ifv_3,	true,	(15*60),	{}],
-	[west_ifv_4,	true,	(15*60),	{}],
+	[west_tank_1,	true,	(25*60),	{}],
+	[west_tank_2,	true,	(25*60),	{}],
+	[west_tank_3,	true,	(25*60),	{}],
+	[west_ifv_1,	true,	(20*60),	{}],
+	[west_ifv_2,	true,	(20*60),	{}],
+	[west_ifv_3,	true,	(20*60),	{}],
+	[west_ifv_4,	true,	(20*60),	{}],
 	[west_truck_1,	false,	(5*60),		{}],
 	[west_truck_2,	false,	(5*60),		{}],
 	[west_truck_3,	false,	(5*60),		{}],
@@ -52,16 +52,17 @@ CCO_vehs =
 	[west_car_4,	false,	(5*60),		{}],
 	[west_car_5,	false,	(5*60),		{}],
 	[west_plane_1,	true,	(30*60),	{}],
+	[west_heli_1,	true,	(15*60),	{}],
 	//EAST
-	[east_tank_1,	true,	(20*60),	{}],
-	[east_tank_2,	true,	(20*60),	{}],
-	[east_tank_3,	true,	(20*60),	{}],
+	[east_tank_1,	true,	(25*60),	{}],
+	[east_tank_2,	true,	(25*60),	{}],
+	[east_tank_3,	true,	(25*60),	{}],
 	[east_aa_1,		false,	(20*60),	{}],
-	[east_aa_2,		true,	(25*60),	{}],
-	[east_ifv_1,	true,	(5*60),		{}],
-	[east_ifv_2,	true,	(5*60),		{}],
-	[east_ifv_3,	true,	(5*60),		{}],
-	[east_ifv_4,	true,	(5*60),		{}],
+	[east_aa_2,		false,	(20*60),	{}],
+	[east_ifv_1,	true,	(20*60),		{}],
+	[east_ifv_2,	true,	(20*60),		{}],
+	[east_ifv_3,	true,	(20*60),		{}],
+	[east_ifv_4,	true,	(20*60),		{}],
 	[east_truck_1,	false,	(5*60),		{}],
 	[east_truck_2,	false,	(5*60),		{}],
 	[east_truck_3,	false,	(5*60),		{}],
@@ -69,8 +70,8 @@ CCO_vehs =
 	[east_truck_5,	false,	(5*60),		{}],
 	[east_truck_6,	false,	(5*60),		{}],
 	[east_truck_7,	false,	(5*60),		{}],
-	[east_arty_1,	false,	(30*60),	{}],
-	[east_arty_2,	false,	(30*60),	{}]
+	[east_car_1,	false,	(5*60),		{}],
+	[east_car_2,	false,	(5*60),		{}]	
 
 ];
 
