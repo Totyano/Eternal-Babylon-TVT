@@ -24,9 +24,10 @@ class CfgFunctions
 // Respawn Settings
 respawn = "Base";
 Respawndelay = 999;
-DisabledAi = 0;
+DisabledAi = 1;
 respawnButton = 1;
 respawnOnStart = -1;
+
 
 // ACE killtracking
 class CfgDebriefingSections {

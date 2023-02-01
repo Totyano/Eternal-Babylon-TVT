@@ -8,11 +8,11 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=7529;
+		nextID=9366;
 	};
 	class MarkerIDProvider
 	{
-		nextID=8;
+		nextID=11;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1232.8635,12.011229,3117.1663};
-		dir[]={0.68996662,-0.29340675,0.66177291};
-		up[]={0.21177895,0.95597118,0.20312589};
-		aside[]={0.69223815,-7.9293386e-008,-0.72172838};
+		pos[]={1292.7024,44.694649,3090.3745};
+		dir[]={-0.76102543,-0.4978542,0.41606414};
+		up[]={-0.43686944,0.86722261,0.23884517};
+		aside[]={0.47973698,-8.5128704e-008,0.87748766};
 	};
 };
 binarizationWanted=0;
@@ -63,13 +63,15 @@ addons[]=
 	"CUP_Buildings_Config",
 	"potato_missionModules",
 	"potato_assignGear",
+	"CMF",
+	"CFP_O_CHDKZ_SNW",
 	"potato_units"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=34;
+		items=36;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -281,6 +283,18 @@ class AddonsMetaData
 		};
 		class Item33
 		{
+			className="CMF";
+			name="CMF";
+			author="tanaKa";
+		};
+		class Item34
+		{
+			className="CFP_O_CHDKZ_SNW";
+			name="CFP_O_CHDKZ_SNW";
+			author="CFP Team";
+		};
+		class Item35
+		{
 			className="potato_units";
 			name="potato_units";
 			author="Potato";
@@ -300,7 +314,7 @@ dlcs[]=
 randomSeed=10807839;
 class ScenarioData
 {
-	author="Thamer";
+	author="Coalitiongroup.net";
 	loadScreen="\z\potato\addons\missionModules\images\loadlogo.paa";
 	respawn=1;
 	class Header
@@ -3839,7 +3853,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=197;
+		items=206;
 		class Item0
 		{
 			dataType="Logic";
@@ -4742,7 +4756,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9051.6602,22.4123,9281.7109};
+				position[]={9154.5752,22.4123,9331.0625};
 			};
 			side="Empty";
 			flags=4;
@@ -4788,7 +4802,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9044.583,22.4123,9281.6885};
+				position[]={9147.498,22.4123,9331.04};
 			};
 			side="Empty";
 			flags=4;
@@ -4834,7 +4848,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9059.0713,22.4123,9281.8633};
+				position[]={9161.9863,22.4123,9331.2148};
 			};
 			side="Empty";
 			flags=4;
@@ -4880,7 +4894,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9112.6133,22.162521,9322.3613};
+				position[]={9098.9531,22.162521,9321.3965};
 			};
 			side="Empty";
 			flags=4;
@@ -4926,7 +4940,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9107.9658,22.162521,9322.541};
+				position[]={9094.3057,22.162521,9321.5762};
 			};
 			side="Empty";
 			flags=4;
@@ -4972,7 +4986,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9103.29,22.162521,9322.4971};
+				position[]={9089.6299,22.162521,9321.5322};
 			};
 			side="Empty";
 			flags=4;
@@ -5018,7 +5032,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9067.7646,22.188251,9311.7715};
+				position[]={9068.6201,22.188251,9321.498};
 			};
 			side="Empty";
 			flags=4;
@@ -5064,7 +5078,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9004.4541,22.209908,9321.8799};
+				position[]={9001.1924,22.209908,9359.627};
 			};
 			side="Empty";
 			flags=4;
@@ -5110,7 +5124,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9061.7432,22.188251,9311.791};
+				position[]={9062.5986,22.188251,9321.5176};
 			};
 			side="Empty";
 			flags=4;
@@ -5156,7 +5170,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9056.1787,22.188251,9311.5586};
+				position[]={9057.0342,22.188251,9321.2852};
 			};
 			side="Empty";
 			flags=4;
@@ -5202,7 +5216,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9050.4854,22.188251,9311.2021};
+				position[]={9051.3408,22.188251,9320.9287};
 			};
 			side="Empty";
 			flags=4;
@@ -5642,7 +5656,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9006.9824,22.496576,9297.4844};
+				position[]={8970.9824,22.496576,9319.5107};
 			};
 			side="Empty";
 			flags=4;
@@ -5688,7 +5702,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9006.9063,22.496576,9284.1338};
+				position[]={8978.9834,22.496576,9319.8594};
 			};
 			side="Empty";
 			flags=4;
@@ -5876,7 +5890,7 @@ class Mission
 		class Item64
 		{
 			dataType="Marker";
-			position[]={4142.0088,6,4700.3862};
+			position[]={3309.4441,8.4948187,4781.4873};
 			name="marker_5";
 			text="B";
 			type="mil_objective";
@@ -5885,12 +5899,11 @@ class Mission
 		class Item65
 		{
 			dataType="Marker";
-			position[]={3582.198,5.9980001,6250.2441};
+			position[]={3528.8782,5.3875146,6250.2441};
 			name="marker_6";
 			text="C";
 			type="mil_objective";
 			id=4041;
-			atlOffset=0.00064563751;
 		};
 		class Item66
 		{
@@ -5906,21 +5919,10 @@ class Mission
 		};
 		class Item67
 		{
-			dataType="Marker";
-			position[]={4134.8369,6,4699.4951};
-			name="marker_8";
-			markerType="ELLIPSE";
-			type="";
-			a=92.111572;
-			b=94.539551;
-			id=4043;
-		};
-		class Item68
-		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8978.8184,22.496576,9284.3418};
+				position[]={8962.3145,22.496576,9319.5439};
 			};
 			side="Empty";
 			flags=4;
@@ -5961,12 +5963,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item69
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8979.1641,22.496576,9297.292};
+				position[]={8953.627,22.496576,9319.7158};
 			};
 			side="Empty";
 			flags=4;
@@ -6007,7 +6009,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item70
+		class Item69
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6023,7 +6025,7 @@ class Mission
 			id=4046;
 			type="OfficeTable_01_new_F";
 		};
-		class Item71
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6039,7 +6041,7 @@ class Mission
 			id=4047;
 			type="Land_OfficeChair_01_F";
 		};
-		class Item72
+		class Item71
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6055,7 +6057,7 @@ class Mission
 			id=4048;
 			type="Land_Document_01_F";
 		};
-		class Item73
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6103,7 +6105,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item74
+		class Item73
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6130,7 +6132,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item75
+		class Item74
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6157,7 +6159,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6184,7 +6186,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6213,7 +6215,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6230,7 +6232,7 @@ class Mission
 			type="CampEast_EP1";
 			atlOffset=0.00073623657;
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6247,7 +6249,7 @@ class Mission
 			type="CampEast_EP1";
 			atlOffset=0.040026188;
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6263,7 +6265,7 @@ class Mission
 			type="Iraq_Flag";
 			atlOffset=4.7683716e-007;
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6280,7 +6282,7 @@ class Mission
 			type="Land_CamoNetB_EAST_EP1";
 			atlOffset=9.5367432e-007;
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6297,7 +6299,7 @@ class Mission
 			type="Land_WoodenTable_large_F";
 			atlOffset=-0.00027704239;
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6314,7 +6316,7 @@ class Mission
 			type="Land_Cargo40_light_green_F";
 			atlOffset=-0.0021319389;
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6331,7 +6333,7 @@ class Mission
 			type="Land_Cargo40_light_green_F";
 			atlOffset=-0.001332283;
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6347,7 +6349,7 @@ class Mission
 			type="Land_LampAirport_F";
 			atlOffset=-9.5367432e-007;
 		};
-		class Item86
+		class Item85
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6363,7 +6365,7 @@ class Mission
 			type="Land_LampAirport_F";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item87
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6379,7 +6381,7 @@ class Mission
 			type="Land_LampAirport_F";
 			atlOffset=9.5367432e-007;
 		};
-		class Item88
+		class Item87
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6394,7 +6396,7 @@ class Mission
 			id=4070;
 			type="Land_LampAirport_F";
 		};
-		class Item89
+		class Item88
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6410,7 +6412,7 @@ class Mission
 			type="Land_LampAirport_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item90
+		class Item89
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6443,7 +6445,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item91
+		class Item90
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -6455,7 +6457,7 @@ class Mission
 			id=4108;
 			atlOffset=4.529953e-005;
 		};
-		class Item92
+		class Item91
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6501,7 +6503,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item93
+		class Item92
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6659,7 +6661,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item94
+		class Item93
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6816,7 +6818,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item95
+		class Item94
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6973,12 +6975,12 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item96
+		class Item95
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8979.7559,22.602926,9317.9502};
+				position[]={8976.4941,22.602926,9355.6973};
 			};
 			side="Empty";
 			flags=4;
@@ -7019,12 +7021,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item97
+		class Item96
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8975.0918,22.602926,9317.7109};
+				position[]={8971.8301,22.602926,9355.458};
 			};
 			side="Empty";
 			flags=4;
@@ -7065,12 +7067,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item98
+		class Item97
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8970.4033,22.602926,9317.708};
+				position[]={8967.1416,22.602926,9355.4551};
 			};
 			side="Empty";
 			flags=4;
@@ -7111,12 +7113,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item99
+		class Item98
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8961.6641,22.602926,9317.7939};
+				position[]={8958.4023,22.602926,9355.541};
 			};
 			side="Empty";
 			flags=4;
@@ -7157,12 +7159,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item100
+		class Item99
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={8965.8799,22.602926,9317.7842};
+				position[]={8962.6182,22.602926,9355.5313};
 			};
 			side="Empty";
 			flags=4;
@@ -7203,7 +7205,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item101
+		class Item100
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7264,7 +7266,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item102
+		class Item101
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7325,7 +7327,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item103
+		class Item102
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7359,7 +7361,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item104
+		class Item103
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7372,7 +7374,7 @@ class Mission
 			class Attributes
 			{
 				name="west_plane_1";
-				pylons=";;;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;;;;";
+				pylons=";;;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;;;;";
 			};
 			id=5568;
 			type="CUP_B_A10_DYN_USA";
@@ -7407,7 +7409,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item105
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7532,7 +7534,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item106
+		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7580,7 +7582,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item107
+		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7628,7 +7630,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item108
+		class Item107
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7676,7 +7678,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item109
+		class Item108
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7693,7 +7695,7 @@ class Mission
 			type="MASH";
 			atlOffset=-0.0006313324;
 		};
-		class Item110
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7710,7 +7712,7 @@ class Mission
 			type="MASH";
 			atlOffset=-0.00063085556;
 		};
-		class Item111
+		class Item110
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7727,7 +7729,7 @@ class Mission
 			type="MASH";
 			atlOffset=-0.0006313324;
 		};
-		class Item112
+		class Item111
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7845,7 +7847,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item113
+		class Item112
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7963,7 +7965,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item114
+		class Item113
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8081,13 +8083,13 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item115
+		class Item114
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1263.7538,8.0836201,3126.1431};
-				angles[]={0.09966857,0,6.2631865};
+				position[]={1295.7047,6.4794869,3162.4707};
+				angles[]={6.2791886,0,0.043970551};
 			};
 			side="Empty";
 			flags=4;
@@ -8097,7 +8099,55 @@ class Mission
 			};
 			id=5603;
 			type="CFP_O_IQARMY_UAZ_01";
-			atlOffset=-4.7683716e-007;
+			atlOffset=-0.002820015;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""CUP_arifle_AK74"",""CUP_launch_RPG18"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_AlicePack_Khaki""],[4]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="potato_setVehicleAmmo_vehAmmoAttribute";
+					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item115
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1290.3342,6.2331052,3162.6528};
+				angles[]={0.0039967569,0,0.043970551};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="east_car_2";
+			};
+			id=5604;
+			type="CFP_O_IQARMY_UAZ_01";
+			atlOffset=-0.0024061203;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8130,54 +8180,6 @@ class Mission
 			};
 		};
 		class Item116
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1258.3833,8.1101513,3126.3252};
-				angles[]={0.107583,0,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="east_car_2";
-			};
-			id=5604;
-			type="CFP_O_IQARMY_UAZ_01";
-			atlOffset=-4.7683716e-007;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="[[[[""CUP_arifle_AK74"",""CUP_launch_RPG18"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_AlicePack_Khaki""],[4]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_setVehicleAmmo_vehAmmoAttribute";
-					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8225,7 +8227,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item118
+		class Item117
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8273,7 +8275,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item119
+		class Item118
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8288,7 +8290,7 @@ class Mission
 			id=6256;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item120
+		class Item119
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8303,7 +8305,7 @@ class Mission
 			id=6257;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item121
+		class Item120
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8318,7 +8320,7 @@ class Mission
 			id=6258;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item122
+		class Item121
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8333,7 +8335,7 @@ class Mission
 			id=6259;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item123
+		class Item122
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8348,7 +8350,7 @@ class Mission
 			id=6260;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item124
+		class Item123
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8363,7 +8365,7 @@ class Mission
 			id=6261;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item125
+		class Item124
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8378,7 +8380,7 @@ class Mission
 			id=6262;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item126
+		class Item125
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8393,7 +8395,7 @@ class Mission
 			id=6263;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item127
+		class Item126
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8408,7 +8410,7 @@ class Mission
 			id=6264;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item128
+		class Item127
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8423,7 +8425,7 @@ class Mission
 			id=6265;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item129
+		class Item128
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8438,7 +8440,7 @@ class Mission
 			id=6266;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item130
+		class Item129
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8453,7 +8455,7 @@ class Mission
 			id=6267;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item131
+		class Item130
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8468,7 +8470,7 @@ class Mission
 			id=6268;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item132
+		class Item131
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8483,7 +8485,7 @@ class Mission
 			id=6269;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item133
+		class Item132
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8498,7 +8500,7 @@ class Mission
 			id=6270;
 			type="potato_assignGear_supply_westPlatoon";
 		};
-		class Item134
+		class Item133
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8515,7 +8517,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item135
+		class Item134
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8531,7 +8533,7 @@ class Mission
 			id=6272;
 			type="potato_assignGear_supply_eastPlatoon";
 		};
-		class Item136
+		class Item135
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8547,7 +8549,7 @@ class Mission
 			id=6273;
 			type="potato_assignGear_supply_eastPlatoon";
 		};
-		class Item137
+		class Item136
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8564,7 +8566,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=4.7683716e-007;
 		};
-		class Item138
+		class Item137
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8581,7 +8583,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-6.6757202e-006;
 		};
-		class Item139
+		class Item138
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8598,7 +8600,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=9.5367432e-007;
 		};
-		class Item140
+		class Item139
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8615,7 +8617,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=4.7683716e-007;
 		};
-		class Item141
+		class Item140
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8632,13 +8634,13 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-2.7656555e-005;
 		};
-		class Item142
+		class Item141
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={1294.1022,5.5981574,2980.4414};
-				angles[]={-0,0,0.015994642};
+				angles[]={0,0,0.015994642};
 			};
 			side="Empty";
 			flags=4;
@@ -8649,7 +8651,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-1.5258789e-005;
 		};
-		class Item143
+		class Item142
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8665,7 +8667,7 @@ class Mission
 			id=6280;
 			type="potato_assignGear_supply_eastPlatoon";
 		};
-		class Item144
+		class Item143
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8682,7 +8684,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-9.059906e-006;
 		};
-		class Item145
+		class Item144
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8699,7 +8701,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-6.1988831e-006;
 		};
-		class Item146
+		class Item145
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8716,7 +8718,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-2.6702881e-005;
 		};
-		class Item147
+		class Item146
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8733,7 +8735,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-1.6689301e-005;
 		};
-		class Item148
+		class Item147
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8749,7 +8751,7 @@ class Mission
 			id=6285;
 			type="potato_assignGear_supply_eastPlatoon";
 		};
-		class Item149
+		class Item148
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8766,7 +8768,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=9.5367432e-007;
 		};
-		class Item150
+		class Item149
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8783,7 +8785,7 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-3.4332275e-005;
 		};
-		class Item151
+		class Item150
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8800,7 +8802,272 @@ class Mission
 			type="potato_assignGear_supply_eastPlatoon";
 			atlOffset=-7.6293945e-006;
 		};
+		class Item151
+		{
+			dataType="Trigger";
+			position[]={4101.2109,6,4714.188};
+			angle=0.31693435;
+			class Attributes
+			{
+				name="sector1";
+				sizeA=55.208;
+				sizeB=53.418999;
+				repeatable=1;
+			};
+			id=7529;
+			type="EmptyDetectorAreaR50";
+		};
 		class Item152
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3116.7539,5.1145096,4467.8242};
+				angles[]={6.2471962,0,6.2392201};
+			};
+			id=7530;
+			type="cmfADModule";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="cmf_ad_randomSectors";
+					expression="_this setVariable ['cmf_ad_randomSectors',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="cmf_ad_defendingSide";
+					expression="_this setVariable ['cmf_ad_defendingSide',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="EAST";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="cmf_ad_attackingSide";
+					expression="_this setVariable ['cmf_ad_attackingSide',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="WEST";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="cmf_ad_capInOrder";
+					expression="_this setVariable ['cmf_ad_capInOrder',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="cmf_ad_createSectors";
+					expression="_this setVariable ['cmf_ad_createSectors',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item153
+		{
+			dataType="Trigger";
+			position[]={3147.76,9.2881079,5586.834};
+			angle=0.31693435;
+			class Attributes
+			{
+				name="sector2";
+				sizeA=55.208;
+				sizeB=53.418999;
+				repeatable=1;
+			};
+			id=7531;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item154
+		{
+			dataType="Marker";
+			position[]={3236.0352,5.07303,5160.9258};
+			name="marker_10";
+			markerType="RECTANGLE";
+			type="";
+			a=4.4893017;
+			b=368.57849;
+			angle=349.0069;
+			id=7533;
+		};
+		class Item155
+		{
+			dataType="Marker";
+			position[]={3684.8257,4.9645615,4755.5117};
+			name="marker_11";
+			markerType="RECTANGLE";
+			type="";
+			a=4.4893017;
+			b=342.8804;
+			angle=94.291054;
+			id=7534;
+			atlOffset=0.5059557;
+		};
+		class Item156
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1257.6332,10.34687,3129.1975};
+				angles[]={0.09966857,0,0.0040116427};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="east_aa_1";
+			};
+			id=7535;
+			type="CFP_O_IQARMY_Ural_ZU_23_01";
+			atlOffset=-0.0070180893;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""CUP_arifle_AKS74U"",""CUP_launch_RPG18"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_AlicePack_Khaki""],[4]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="potato_setVehicleAmmo_vehAmmoAttribute";
+					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item157
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1262.9132,10.303003,3129.4822};
+				angles[]={0.095706634,0,6.2671871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="east_aa_2";
+			};
+			id=7536;
+			type="CFP_O_IQARMY_Ural_ZU_23_01";
+			atlOffset=-0.012428761;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""CUP_arifle_AKS74U"",""CUP_launch_RPG18"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_AlicePack_Khaki""],[4]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="potato_setVehicleAmmo_vehAmmoAttribute";
+					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item158
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1260.7168,8.2254162,3122.9189};
+				angles[]={0.10362019,0,6.2671809};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8121;
+			type="CFP_O_CHDKZ_SNW_LaunchersBox";
+			atlOffset=2.5749207e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""CUP_launch_Igla""],[30]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item159
 		{
 			dataType="Group";
 			side="West";
@@ -8812,7 +9079,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8993.084,20.001438,9347.7178};
+						position[]={8989.8223,20.001438,9385.4648};
 						angles[]={-0,6.2821379,0};
 					};
 					side="West";
@@ -8825,7 +9092,7 @@ class Mission
 						description="Commander@COMPANY COMMAND";
 						isPlayable=1;
 					};
-					id=7296;
+					id=9127;
 					type="potato_w_coy";
 					class CustomAttributes
 					{
@@ -8889,7 +9156,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8994.6309,20.001438,9346.5889};
+						position[]={8991.3691,20.001438,9384.3359};
 					};
 					side="West";
 					flags=5;
@@ -8898,7 +9165,7 @@ class Mission
 						description="Logistics officer";
 						isPlayable=1;
 					};
-					id=7297;
+					id=9128;
 					type="potato_w_engl";
 				};
 				class Item2
@@ -8906,7 +9173,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8926.124,20.001438,9333.4688};
+						position[]={8927.6885,20.001438,9339.3809};
 					};
 					side="West";
 					flags=4;
@@ -8915,7 +9182,7 @@ class Mission
 						description="Logistics Pilot";
 						isPlayable=1;
 					};
-					id=7298;
+					id=9129;
 					type="potato_w_pilot";
 					class CustomAttributes
 					{
@@ -8939,7 +9206,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7295;
+			id=9126;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8971,7 +9238,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item153
+		class Item160
 		{
 			dataType="Group";
 			side="West";
@@ -8983,7 +9250,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9005.7178,20.001438,9317.2881};
+						position[]={9002.4561,20.001438,9355.0352};
 						angles[]={-0,6.2821379,0};
 					};
 					side="West";
@@ -8996,7 +9263,7 @@ class Mission
 						description="  1st Platoon Leader@ 1ST PLT";
 						isPlayable=1;
 					};
-					id=7300;
+					id=9131;
 					type="potato_w_plt";
 					class CustomAttributes
 					{
@@ -9060,7 +9327,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9009.9854,20.001438,9315.3779};
+						position[]={9006.7236,20.001438,9353.125};
 						angles[]={-0,6.2821379,0};
 					};
 					side="West";
@@ -9073,7 +9340,7 @@ class Mission
 						description="  Medical Officer";
 						isPlayable=1;
 					};
-					id=7301;
+					id=9132;
 					type="potato_w_plm";
 					class CustomAttributes
 					{
@@ -9111,7 +9378,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9001.7354,20.001438,9314.8027};
+						position[]={8998.4736,20.001438,9352.5498};
 						angles[]={-0,6.2821379,0};
 					};
 					side="West";
@@ -9124,7 +9391,7 @@ class Mission
 						description="  JTAC/Forward Observer";
 						isPlayable=1;
 					};
-					id=7302;
+					id=9133;
 					type="potato_w_fac";
 					class CustomAttributes
 					{
@@ -9149,7 +9416,7 @@ class Mission
 			{
 				name="GrpNATO_PL_6";
 			};
-			id=7299;
+			id=9130;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9181,7 +9448,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item154
+		class Item161
 		{
 			dataType="Group";
 			side="West";
@@ -9193,7 +9460,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8988.9834,20.001438,9313.6748};
+						position[]={8985.7217,20.001438,9351.4219};
 					};
 					side="West";
 					flags=7;
@@ -9203,7 +9470,7 @@ class Mission
 						description="     Alpha Squad Leader@   ALPHA";
 						isPlayable=1;
 					};
-					id=7304;
+					id=9135;
 					type="potato_w_sl";
 				};
 				class Item1
@@ -9211,7 +9478,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8990.5742,20.001438,9313.707};
+						position[]={8987.3125,20.001438,9351.4541};
 					};
 					side="West";
 					flags=5;
@@ -9220,7 +9487,7 @@ class Mission
 						description="     Alpha Medic";
 						isPlayable=1;
 					};
-					id=7305;
+					id=9136;
 					type="potato_w_sm";
 					class CustomAttributes
 					{
@@ -9258,7 +9525,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8990.0195,20.001438,9308.707};
+						position[]={8986.7578,20.001438,9346.4541};
 					};
 					side="West";
 					flags=4;
@@ -9268,7 +9535,7 @@ class Mission
 						description="     Alpha IFV1 Commander";
 						isPlayable=1;
 					};
-					id=7306;
+					id=9137;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -9306,7 +9573,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8991.4346,20.001438,9308.5615};
+						position[]={8988.1729,20.001438,9346.3086};
 					};
 					side="West";
 					flags=4;
@@ -9316,7 +9583,7 @@ class Mission
 						description="     Alpha IFV1 Driver";
 						isPlayable=1;
 					};
-					id=7307;
+					id=9138;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -9354,7 +9621,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8986.7568,20.001438,9309.2012};
+						position[]={8983.4951,20.001438,9346.9482};
 					};
 					side="West";
 					flags=4;
@@ -9364,7 +9631,7 @@ class Mission
 						description="     Alpha IFV2 Commander";
 						isPlayable=1;
 					};
-					id=7308;
+					id=9139;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -9402,7 +9669,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8988.1719,20.001438,9308.9063};
+						position[]={8984.9102,20.001438,9346.6533};
 					};
 					side="West";
 					flags=4;
@@ -9412,7 +9679,7 @@ class Mission
 						description="     Alpha IFV2 Driver";
 						isPlayable=1;
 					};
-					id=7309;
+					id=9140;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -9449,7 +9716,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7303;
+			id=9134;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9494,7 +9761,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item155
+		class Item162
 		{
 			dataType="Group";
 			side="West";
@@ -9506,7 +9773,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8993.0186,20.001438,9301.3066};
+						position[]={8989.7568,20.001438,9339.0537};
 					};
 					side="West";
 					flags=7;
@@ -9516,7 +9783,7 @@ class Mission
 						description="        Alpha 1 Fire Team Leader@     A1";
 						isPlayable=1;
 					};
-					id=7311;
+					id=9142;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -9524,7 +9791,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8995.915,20.001438,9298.5771};
+						position[]={8992.6533,20.001438,9336.3242};
 					};
 					side="West";
 					flags=5;
@@ -9533,7 +9800,7 @@ class Mission
 						description="        Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7312;
+					id=9143;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -9558,7 +9825,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8988.0859,20.001438,9298.9688};
+						position[]={8984.8242,20.001438,9336.7158};
 					};
 					side="West";
 					flags=5;
@@ -9567,7 +9834,7 @@ class Mission
 						description="        Alpha 1 AAR";
 						isPlayable=1;
 					};
-					id=7313;
+					id=9144;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -9592,7 +9859,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8984.5771,20.001438,9296.9941};
+						position[]={8981.3154,20.001438,9334.7412};
 					};
 					side="West";
 					flags=5;
@@ -9601,7 +9868,7 @@ class Mission
 						description="        Alpha 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7314;
+					id=9145;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -9626,7 +9893,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8998.9961,20.001438,9296.1094};
+						position[]={8995.7344,20.001438,9333.8564};
 					};
 					side="West";
 					flags=5;
@@ -9635,7 +9902,7 @@ class Mission
 						description="        Alpha 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7315;
+					id=9146;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -9659,7 +9926,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7310;
+			id=9141;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9704,7 +9971,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item156
+		class Item163
 		{
 			dataType="Group";
 			side="West";
@@ -9716,7 +9983,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8993.2578,20.001438,9287.8418};
+						position[]={8992.2871,20.001438,9325.1611};
 					};
 					side="West";
 					flags=7;
@@ -9726,7 +9993,7 @@ class Mission
 						description="        Alpha 2 Fire Team Leader@     A2";
 						isPlayable=1;
 					};
-					id=7317;
+					id=9148;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -9734,7 +10001,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8997.0771,20.001438,9286.1299};
+						position[]={8996.1064,20.001438,9323.4492};
 					};
 					side="West";
 					flags=5;
@@ -9743,7 +10010,7 @@ class Mission
 						description="        Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7318;
+					id=9149;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -9768,7 +10035,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8988.2588,20.001438,9285.9111};
+						position[]={8987.2881,20.001438,9323.2305};
 					};
 					side="West";
 					flags=5;
@@ -9777,7 +10044,7 @@ class Mission
 						description="        Alpha 2 AAR";
 						isPlayable=1;
 					};
-					id=7319;
+					id=9150;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -9802,7 +10069,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8984.6592,20.001438,9283.9932};
+						position[]={8983.6885,20.001438,9321.3125};
 					};
 					side="West";
 					flags=5;
@@ -9811,7 +10078,7 @@ class Mission
 						description="        Alpha 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7320;
+					id=9151;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -9836,7 +10103,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9000.7568,20.001438,9283.1777};
+						position[]={8999.7861,20.001438,9320.4971};
 					};
 					side="West";
 					flags=5;
@@ -9845,7 +10112,7 @@ class Mission
 						description="        Alpha 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7321;
+					id=9152;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -9869,7 +10136,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7316;
+			id=9147;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -9914,7 +10181,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item157
+		class Item164
 		{
 			dataType="Group";
 			side="West";
@@ -9926,7 +10193,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9015.3877,20.001438,9307.5146};
+						position[]={9012.126,20.001438,9345.2617};
 					};
 					side="West";
 					flags=7;
@@ -9936,7 +10203,7 @@ class Mission
 						description="     Bravo Squad Leader@   BRAVO";
 						isPlayable=1;
 					};
-					id=7323;
+					id=9154;
 					type="potato_w_sl";
 				};
 				class Item1
@@ -9944,7 +10211,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9018.0371,20.001438,9307.3916};
+						position[]={9014.7754,20.001438,9345.1387};
 					};
 					side="West";
 					flags=5;
@@ -9953,7 +10220,7 @@ class Mission
 						description="     Bravo Medic";
 						isPlayable=1;
 					};
-					id=7324;
+					id=9155;
 					type="potato_w_sm";
 					class CustomAttributes
 					{
@@ -9991,7 +10258,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9009.4463,20.001438,9305.9707};
+						position[]={9006.1846,20.001438,9343.7178};
 					};
 					side="West";
 					flags=4;
@@ -10001,7 +10268,7 @@ class Mission
 						description="     Bravo IFV2 Commander";
 						isPlayable=1;
 					};
-					id=7325;
+					id=9156;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -10039,7 +10306,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9010.8613,20.001438,9305.6758};
+						position[]={9007.5996,20.001438,9343.4229};
 					};
 					side="West";
 					flags=4;
@@ -10049,7 +10316,7 @@ class Mission
 						description="     Bravo IFV2 Driver";
 						isPlayable=1;
 					};
-					id=7326;
+					id=9157;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -10087,7 +10354,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9012.71,20.001438,9305.4766};
+						position[]={9009.4482,20.001438,9343.2236};
 					};
 					side="West";
 					flags=4;
@@ -10097,7 +10364,7 @@ class Mission
 						description="     Bravo IFV1 Commander";
 						isPlayable=1;
 					};
-					id=7327;
+					id=9158;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -10135,7 +10402,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9014.124,20.001438,9305.3311};
+						position[]={9010.8623,20.001438,9343.0781};
 					};
 					side="West";
 					flags=4;
@@ -10145,7 +10412,7 @@ class Mission
 						description="     Bravo IFV1 Driver";
 						isPlayable=1;
 					};
-					id=7328;
+					id=9159;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -10182,7 +10449,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7322;
+			id=9153;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10227,7 +10494,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item158
+		class Item165
 		{
 			dataType="Group";
 			side="West";
@@ -10239,7 +10506,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9016.832,20.001438,9300.9453};
+						position[]={9013.5703,20.001438,9338.6924};
 					};
 					side="West";
 					flags=7;
@@ -10249,7 +10516,7 @@ class Mission
 						description="        Bravo 1 Fire Team Leader@     B1";
 						isPlayable=1;
 					};
-					id=7330;
+					id=9161;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -10257,7 +10524,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9020.541,20.001438,9299.0234};
+						position[]={9017.2793,20.001438,9336.7705};
 					};
 					side="West";
 					flags=5;
@@ -10266,7 +10533,7 @@ class Mission
 						description="        Bravo 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7331;
+					id=9162;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -10291,7 +10558,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9014.082,20.001438,9298.9844};
+						position[]={9010.8203,20.001438,9336.7314};
 					};
 					side="West";
 					flags=5;
@@ -10300,7 +10567,7 @@ class Mission
 						description="        Bravo 1 AAR";
 						isPlayable=1;
 					};
-					id=7332;
+					id=9163;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -10325,7 +10592,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9011.0986,20.001438,9296.457};
+						position[]={9007.8369,20.001438,9334.2041};
 					};
 					side="West";
 					flags=5;
@@ -10334,7 +10601,7 @@ class Mission
 						description="        Bravo 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7333;
+					id=9164;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -10359,7 +10626,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9024.3174,20.001438,9297.6016};
+						position[]={9021.0557,20.001438,9335.3486};
 					};
 					side="West";
 					flags=5;
@@ -10368,7 +10635,7 @@ class Mission
 						description="        Bravo 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7334;
+					id=9165;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -10392,7 +10659,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7329;
+			id=9160;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10437,7 +10704,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item159
+		class Item166
 		{
 			dataType="Group";
 			side="West";
@@ -10449,7 +10716,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9017.6709,20.001438,9288.0283};
+						position[]={9014.4092,20.001438,9325.7754};
 					};
 					side="West";
 					flags=7;
@@ -10459,7 +10726,7 @@ class Mission
 						description="        Bravo 2 Fire Team Leader@     B2";
 						isPlayable=1;
 					};
-					id=7336;
+					id=9167;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -10467,7 +10734,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9020.5342,20.001438,9286.2461};
+						position[]={9017.2725,20.001438,9323.9932};
 					};
 					side="West";
 					flags=5;
@@ -10476,7 +10743,7 @@ class Mission
 						description="        Bravo 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7337;
+					id=9168;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -10501,7 +10768,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9014.084,20.001438,9285.5176};
+						position[]={9010.8223,20.001438,9323.2646};
 					};
 					side="West";
 					flags=5;
@@ -10510,7 +10777,7 @@ class Mission
 						description="        Bravo 2 AAR";
 						isPlayable=1;
 					};
-					id=7338;
+					id=9169;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -10535,7 +10802,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9011.3379,20.001438,9283.4727};
+						position[]={9008.0762,20.001438,9321.2197};
 					};
 					side="West";
 					flags=5;
@@ -10544,7 +10811,7 @@ class Mission
 						description="        Bravo 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7339;
+					id=9170;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -10569,7 +10836,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9024.9219,20.001438,9284.4199};
+						position[]={9021.6602,20.001438,9322.167};
 					};
 					side="West";
 					flags=5;
@@ -10578,7 +10845,7 @@ class Mission
 						description="        Bravo 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7340;
+					id=9171;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -10602,7 +10869,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7335;
+			id=9166;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10647,7 +10914,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item160
+		class Item167
 		{
 			dataType="Group";
 			side="West";
@@ -10672,7 +10939,7 @@ class Mission
 						description="  2nd Platoon Leader@ 2ND PLT";
 						isPlayable=1;
 					};
-					id=7342;
+					id=9173;
 					type="potato_w_plt";
 					class CustomAttributes
 					{
@@ -10749,7 +11016,7 @@ class Mission
 						description="  JTAC/Forward Observer";
 						isPlayable=1;
 					};
-					id=7343;
+					id=9174;
 					type="potato_w_fac";
 					class CustomAttributes
 					{
@@ -10787,7 +11054,7 @@ class Mission
 						description="  Medical Officer";
 						isPlayable=1;
 					};
-					id=7344;
+					id=9175;
 					type="potato_w_plm";
 					class CustomAttributes
 					{
@@ -10824,7 +11091,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7341;
+			id=9172;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10856,7 +11123,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item161
+		class Item168
 		{
 			dataType="Group";
 			side="West";
@@ -10878,7 +11145,7 @@ class Mission
 						description="     Charlie Squad Leader@   CHARLIE";
 						isPlayable=1;
 					};
-					id=7346;
+					id=9177;
 					type="potato_w_sl";
 				};
 				class Item1
@@ -10895,7 +11162,7 @@ class Mission
 						description="     Charlie Medic";
 						isPlayable=1;
 					};
-					id=7347;
+					id=9178;
 					type="potato_w_sm";
 					class CustomAttributes
 					{
@@ -10932,7 +11199,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7345;
+			id=9176;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10977,7 +11244,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item162
+		class Item169
 		{
 			dataType="Group";
 			side="West";
@@ -10999,7 +11266,7 @@ class Mission
 						description="        Charlie 1 Fire Team Leader@     C1";
 						isPlayable=1;
 					};
-					id=7349;
+					id=9180;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -11016,7 +11283,7 @@ class Mission
 						description="        Charlie 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7350;
+					id=9181;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -11050,7 +11317,7 @@ class Mission
 						description="        Charlie 1 AAR";
 						isPlayable=1;
 					};
-					id=7351;
+					id=9182;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -11084,7 +11351,7 @@ class Mission
 						description="        Charlie 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7352;
+					id=9183;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -11118,7 +11385,7 @@ class Mission
 						description="        Charlie 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7353;
+					id=9184;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -11142,7 +11409,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7348;
+			id=9179;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11187,7 +11454,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item163
+		class Item170
 		{
 			dataType="Group";
 			side="West";
@@ -11209,7 +11476,7 @@ class Mission
 						description="        Charlie 2 Fire Team Leader@     C2";
 						isPlayable=1;
 					};
-					id=7355;
+					id=9186;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -11226,7 +11493,7 @@ class Mission
 						description="        Charlie 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7356;
+					id=9187;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -11260,7 +11527,7 @@ class Mission
 						description="        Charlie 2 AAR";
 						isPlayable=1;
 					};
-					id=7357;
+					id=9188;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -11294,7 +11561,7 @@ class Mission
 						description="        Charlie 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7358;
+					id=9189;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -11328,7 +11595,7 @@ class Mission
 						description="        Charlie 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7359;
+					id=9190;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -11352,7 +11619,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7354;
+			id=9185;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11397,7 +11664,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item164
+		class Item171
 		{
 			dataType="Group";
 			side="West";
@@ -11419,7 +11686,7 @@ class Mission
 						description="     Delta Squad Leader@   DELTA";
 						isPlayable=1;
 					};
-					id=7361;
+					id=9192;
 					type="potato_w_sl";
 				};
 				class Item1
@@ -11436,7 +11703,7 @@ class Mission
 						description="     Delta Medic";
 						isPlayable=1;
 					};
-					id=7362;
+					id=9193;
 					type="potato_w_sm";
 					class CustomAttributes
 					{
@@ -11473,7 +11740,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7360;
+			id=9191;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11518,7 +11785,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item165
+		class Item172
 		{
 			dataType="Group";
 			side="West";
@@ -11540,7 +11807,7 @@ class Mission
 						description="        Delta 1 Fire Team Leader@     D1";
 						isPlayable=1;
 					};
-					id=7364;
+					id=9195;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -11557,7 +11824,7 @@ class Mission
 						description="        Delta 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7365;
+					id=9196;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -11591,7 +11858,7 @@ class Mission
 						description="        Delta 1 AAR";
 						isPlayable=1;
 					};
-					id=7366;
+					id=9197;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -11625,7 +11892,7 @@ class Mission
 						description="        Delta 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7367;
+					id=9198;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -11659,7 +11926,7 @@ class Mission
 						description="        Delta 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7368;
+					id=9199;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -11683,7 +11950,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7363;
+			id=9194;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11728,7 +11995,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item166
+		class Item173
 		{
 			dataType="Group";
 			side="West";
@@ -11750,7 +12017,7 @@ class Mission
 						description="        Delta 2 Fire Team Leader@     D2";
 						isPlayable=1;
 					};
-					id=7370;
+					id=9201;
 					type="potato_w_ftl";
 				};
 				class Item1
@@ -11767,7 +12034,7 @@ class Mission
 						description="        Delta 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7371;
+					id=9202;
 					type="potato_w_ar";
 					class CustomAttributes
 					{
@@ -11801,7 +12068,7 @@ class Mission
 						description="        Delta 2 AAR";
 						isPlayable=1;
 					};
-					id=7372;
+					id=9203;
 					type="potato_w_aar";
 					class CustomAttributes
 					{
@@ -11835,7 +12102,7 @@ class Mission
 						description="        Delta 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7373;
+					id=9204;
 					type="potato_w_rifleman_02";
 					class CustomAttributes
 					{
@@ -11869,7 +12136,7 @@ class Mission
 						description="        Delta 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7374;
+					id=9205;
 					type="potato_w_lat";
 					class CustomAttributes
 					{
@@ -11893,7 +12160,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7369;
+			id=9200;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11938,7 +12205,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item167
+		class Item174
 		{
 			dataType="Group";
 			side="West";
@@ -11950,7 +12217,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9060.4766,20.001438,9274.0859};
+						position[]={9163.3916,20.001438,9323.4375};
 					};
 					side="West";
 					flags=6;
@@ -11960,7 +12227,7 @@ class Mission
 						description=" TNK Commander@TANK1 CREW (M1A1)";
 						isPlayable=1;
 					};
-					id=7376;
+					id=9207;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -11998,7 +12265,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9056.6152,20.001438,9271.3447};
+						position[]={9159.5303,20.001438,9320.6963};
 					};
 					side="West";
 					flags=4;
@@ -12008,7 +12275,7 @@ class Mission
 						description=" TNK Gunner";
 						isPlayable=1;
 					};
-					id=7377;
+					id=9208;
 					type="potato_w_vicc";
 					class CustomAttributes
 					{
@@ -12046,7 +12313,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9059.1494,20.001438,9271.3506};
+						position[]={9162.0645,20.001438,9320.7021};
 					};
 					side="West";
 					flags=4;
@@ -12056,7 +12323,7 @@ class Mission
 						description=" TNK Driver";
 						isPlayable=1;
 					};
-					id=7378;
+					id=9209;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -12093,7 +12360,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7375;
+			id=9206;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12125,7 +12392,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item168
+		class Item175
 		{
 			dataType="Group";
 			side="West";
@@ -12137,7 +12404,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9052.2969,20.001438,9272.4395};
+						position[]={9155.2119,20.001438,9321.791};
 					};
 					side="West";
 					flags=6;
@@ -12147,7 +12414,7 @@ class Mission
 						description=" TNK Commander@TANK2 CREW (M1A1)";
 						isPlayable=1;
 					};
-					id=7380;
+					id=9211;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -12185,7 +12452,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9048.4355,20.001438,9269.6982};
+						position[]={9151.3506,20.001438,9319.0498};
 					};
 					side="West";
 					flags=4;
@@ -12195,7 +12462,7 @@ class Mission
 						description=" TNK Gunner";
 						isPlayable=1;
 					};
-					id=7381;
+					id=9212;
 					type="potato_w_vicc";
 					class CustomAttributes
 					{
@@ -12233,7 +12500,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9050.9697,20.001438,9269.7041};
+						position[]={9153.8848,20.001438,9319.0557};
 					};
 					side="West";
 					flags=4;
@@ -12243,7 +12510,7 @@ class Mission
 						description=" TNK Driver";
 						isPlayable=1;
 					};
-					id=7382;
+					id=9213;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -12280,7 +12547,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7379;
+			id=9210;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12312,7 +12579,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item169
+		class Item176
 		{
 			dataType="Group";
 			side="West";
@@ -12324,7 +12591,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9044.5244,20.001438,9272.1699};
+						position[]={9147.4395,20.001438,9321.5215};
 					};
 					side="West";
 					flags=6;
@@ -12334,7 +12601,7 @@ class Mission
 						description=" TNK Commander@TANK3 CREW (M1A1)";
 						isPlayable=1;
 					};
-					id=7384;
+					id=9215;
 					type="potato_w_vicl";
 					class CustomAttributes
 					{
@@ -12372,7 +12639,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9040.6631,20.001438,9269.4287};
+						position[]={9143.5781,20.001438,9318.7803};
 					};
 					side="West";
 					flags=4;
@@ -12382,7 +12649,7 @@ class Mission
 						description=" TNK Gunner";
 						isPlayable=1;
 					};
-					id=7385;
+					id=9216;
 					type="potato_w_vicc";
 					class CustomAttributes
 					{
@@ -12420,7 +12687,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9043.1973,20.001438,9269.4346};
+						position[]={9146.1123,20.001438,9318.7861};
 					};
 					side="West";
 					flags=4;
@@ -12430,7 +12697,7 @@ class Mission
 						description=" TNK Driver";
 						isPlayable=1;
 					};
-					id=7386;
+					id=9217;
 					type="potato_w_vicd";
 					class CustomAttributes
 					{
@@ -12467,7 +12734,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7383;
+			id=9214;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12499,7 +12766,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item170
+		class Item177
 		{
 			dataType="Group";
 			side="West";
@@ -12522,7 +12789,7 @@ class Mission
 						description="CAS Pilot@FIXED WING CAS (A-10)";
 						isPlayable=1;
 					};
-					id=7388;
+					id=9219;
 					type="potato_w_pilot";
 					class CustomAttributes
 					{
@@ -12559,7 +12826,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7387;
+			id=9218;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12591,7 +12858,71 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item171
+		class Item178
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8989.5293,20.001438,9362.373};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="HAT Leader@ HAT ( MAAWS)";
+						isPlayable=1;
+					};
+					id=9221;
+					type="potato_w_hatag";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8991.6719,20.001438,9360.4424};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Gunner";
+						isPlayable=1;
+					};
+					id=9222;
+					type="potato_w_hatg";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=9220;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="BLU HAT";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item179
 		{
 			dataType="Group";
 			side="West";
@@ -12613,7 +12944,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7390;
+					id=9227;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12632,7 +12963,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7391;
+					id=9228;
 					type="potato_w_lat";
 				};
 				class Item2
@@ -12650,7 +12981,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7392;
+					id=9229;
 					type="potato_w_lat";
 				};
 				class Item3
@@ -12668,7 +12999,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7393;
+					id=9230;
 					type="potato_w_lat";
 				};
 				class Item4
@@ -12686,7 +13017,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7394;
+					id=9231;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12705,7 +13036,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7395;
+					id=9232;
 					type="potato_w_lat";
 				};
 				class Item6
@@ -12723,7 +13054,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7396;
+					id=9233;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12742,7 +13073,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7397;
+					id=9234;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12760,7 +13091,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7398;
+					id=9235;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12779,7 +13110,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7399;
+					id=9236;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12798,7 +13129,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7400;
+					id=9237;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12817,7 +13148,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7401;
+					id=9238;
 					type="potato_w_lat";
 				};
 				class Item12
@@ -12835,7 +13166,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7402;
+					id=9239;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12854,7 +13185,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7403;
+					id=9240;
 					type="potato_w_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -12873,7 +13204,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7404;
+					id=9241;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12892,7 +13223,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7405;
+					id=9242;
 					type="potato_w_lat";
 				};
 				class Item16
@@ -12910,7 +13241,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7406;
+					id=9243;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12929,7 +13260,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7407;
+					id=9244;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12948,7 +13279,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7408;
+					id=9245;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12967,7 +13298,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7409;
+					id=9246;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -12986,7 +13317,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7410;
+					id=9247;
 					type="potato_w_lat";
 				};
 				class Item21
@@ -13004,7 +13335,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7411;
+					id=9248;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -13023,7 +13354,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7412;
+					id=9249;
 					type="potato_w_lat";
 					atlOffset=9.5367432e-007;
 				};
@@ -13042,14 +13373,14 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7413;
+					id=9250;
 					type="potato_w_lat";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7389;
+			id=9226;
 			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
@@ -13069,7 +13400,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item172
+		class Item180
 		{
 			dataType="Group";
 			side="East";
@@ -13095,7 +13426,7 @@ class Mission
 						description="Commander@COMPANY COMMAND";
 						isPlayable=1;
 					};
-					id=7415;
+					id=9252;
 					type="potato_e_coy";
 					class CustomAttributes
 					{
@@ -13129,7 +13460,7 @@ class Mission
 						description="Logistics Officer";
 						isPlayable=1;
 					};
-					id=7416;
+					id=9253;
 					type="potato_e_engl";
 				};
 				class Item2
@@ -13146,7 +13477,7 @@ class Mission
 						description="Logistics Engineer";
 						isPlayable=1;
 					};
-					id=7417;
+					id=9254;
 					type="potato_e_eng";
 					atlOffset=-4.7683716e-007;
 				};
@@ -13154,7 +13485,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7414;
+			id=9251;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13186,7 +13517,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item173
+		class Item181
 		{
 			dataType="Group";
 			side="East";
@@ -13198,8 +13529,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1271.3619,8.6220293,3077.4099};
-						angles[]={6.2352209,0.00099483761,6.2591896};
+						position[]={1267.854,8.497962,3074.415};
+						angles[]={6.2192717,0.00099483761,6.2751913};
 					};
 					side="East";
 					flags=6;
@@ -13208,11 +13539,11 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						lock="UNLOCKED";
-						name="OPF_PL";
-						description="  1st Platoon Leader@ 1ST PLT";
+						name="OPF_PL1";
+						description="  1st Platoon Leader@ 2ST PLT";
 						isPlayable=1;
 					};
-					id=7419;
+					id=9256;
 					type="potato_e_plt";
 					class CustomAttributes
 					{
@@ -13237,8 +13568,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1276.543,8.3837614,3074.8079};
-						angles[]={6.2392135,0.00099483761,6.2591896};
+						position[]={1273.036,8.2807322,3071.812};
+						angles[]={6.2232509,0.00099483761,6.2711945};
 					};
 					side="East";
 					flags=4;
@@ -13246,13 +13577,12 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="LIEUTENANT";
-						name="OPF_PLM";
+						name="OPF_PLM2";
 						description="  Medical Officer";
 						isPlayable=1;
 					};
-					id=7420;
+					id=9257;
 					type="potato_e_plm";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13264,7 +13594,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="1MO,16,white,\z\potato\addons\markers\data\medical.paa";
+									value="2MO,16,white,\z\potato\addons\markers\data\unknown.paa";
 								};
 							};
 						};
@@ -13288,7 +13618,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7418;
+			id=9255;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13320,7 +13650,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item174
+		class Item182
 		{
 			dataType="Group";
 			side="East";
@@ -13346,7 +13676,7 @@ class Mission
 						description="     Alpha Squad Leader@   ALPHA";
 						isPlayable=1;
 					};
-					id=7422;
+					id=9259;
 					type="potato_e_sl";
 					class CustomAttributes
 					{
@@ -13385,7 +13715,7 @@ class Mission
 						description="     Alpha Medic";
 						isPlayable=1;
 					};
-					id=7423;
+					id=9260;
 					type="potato_e_sm";
 					class CustomAttributes
 					{
@@ -13422,7 +13752,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7421;
+			id=9258;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13467,7 +13797,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item175
+		class Item183
 		{
 			dataType="Group";
 			side="East";
@@ -13479,7 +13809,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1258.502,6.8823061,3053.0876};
+						position[]={1258.502,6.8823285,3053.0881};
 						angles[]={6.2073312,0.00099483761,0};
 					};
 					side="East";
@@ -13493,9 +13823,8 @@ class Mission
 						description="        Alpha 1 Fire Team Leader@     A1";
 						isPlayable=1;
 					};
-					id=7425;
+					id=9262;
 					type="potato_e_ftl";
-					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13532,7 +13861,7 @@ class Mission
 						description="        Alpha 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7426;
+					id=9263;
 					type="potato_e_ar";
 					class CustomAttributes
 					{
@@ -13609,7 +13938,7 @@ class Mission
 						description="        Alpha 1 AAR";
 						isPlayable=1;
 					};
-					id=7427;
+					id=9264;
 					type="potato_e_aar";
 					class CustomAttributes
 					{
@@ -13684,7 +14013,7 @@ class Mission
 						description="        Alpha 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7428;
+					id=9265;
 					type="potato_e_rifleman_02";
 					class CustomAttributes
 					{
@@ -13735,7 +14064,7 @@ class Mission
 						description="        Alpha 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7429;
+					id=9266;
 					type="potato_e_lat";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -13773,8 +14102,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7424;
-			atlOffset=4.7683716e-007;
+			id=9261;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13819,7 +14147,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item176
+		class Item184
 		{
 			dataType="Group";
 			side="East";
@@ -13845,7 +14173,7 @@ class Mission
 						description="        Alpha 2 Fire Team Leader@     A2";
 						isPlayable=1;
 					};
-					id=7431;
+					id=9268;
 					type="potato_e_ftl";
 					class CustomAttributes
 					{
@@ -13883,7 +14211,7 @@ class Mission
 						description="        Alpha 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7432;
+					id=9269;
 					type="potato_e_ar";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -13961,7 +14289,7 @@ class Mission
 						description="        Alpha 2 AAR";
 						isPlayable=1;
 					};
-					id=7433;
+					id=9270;
 					type="potato_e_aar";
 					class CustomAttributes
 					{
@@ -14036,7 +14364,7 @@ class Mission
 						description="        Alpha 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7434;
+					id=9271;
 					type="potato_e_rifleman_02";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14088,7 +14416,7 @@ class Mission
 						description="        Alpha 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7435;
+					id=9272;
 					type="potato_e_lat";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14126,7 +14454,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7430;
+			id=9267;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14171,7 +14499,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item177
+		class Item185
 		{
 			dataType="Group";
 			side="East";
@@ -14197,7 +14525,7 @@ class Mission
 						description="     Bravo Squad Leader@   BRAVO";
 						isPlayable=1;
 					};
-					id=7437;
+					id=9274;
 					type="potato_e_sl";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14237,7 +14565,7 @@ class Mission
 						description="     Bravo Medic";
 						isPlayable=1;
 					};
-					id=7438;
+					id=9275;
 					type="potato_e_sm";
 					atlOffset=1.4305115e-006;
 					class CustomAttributes
@@ -14275,7 +14603,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7436;
+			id=9273;
 			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
@@ -14321,7 +14649,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item178
+		class Item186
 		{
 			dataType="Group";
 			side="East";
@@ -14347,7 +14675,7 @@ class Mission
 						description="        Bravo 1 Fire Team Leader@     B1";
 						isPlayable=1;
 					};
-					id=7440;
+					id=9277;
 					type="potato_e_ftl";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14386,7 +14714,7 @@ class Mission
 						description="        Bravo 1 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7441;
+					id=9278;
 					type="potato_e_ar";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14464,7 +14792,7 @@ class Mission
 						description="        Bravo 1 AAR";
 						isPlayable=1;
 					};
-					id=7442;
+					id=9279;
 					type="potato_e_aar";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -14540,7 +14868,7 @@ class Mission
 						description="        Bravo 1 Grenadier";
 						isPlayable=1;
 					};
-					id=7443;
+					id=9280;
 					type="potato_e_rifleman_02";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14592,7 +14920,7 @@ class Mission
 						description="        Bravo 1 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7444;
+					id=9281;
 					type="potato_e_lat";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14630,7 +14958,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7439;
+			id=9276;
 			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
@@ -14676,7 +15004,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item179
+		class Item187
 		{
 			dataType="Group";
 			side="East";
@@ -14702,7 +15030,7 @@ class Mission
 						description="        Bravo 2 Fire Team Leader@     B2";
 						isPlayable=1;
 					};
-					id=7446;
+					id=9283;
 					type="potato_e_ftl";
 					class CustomAttributes
 					{
@@ -14740,7 +15068,7 @@ class Mission
 						description="        Bravo 2 Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7447;
+					id=9284;
 					type="potato_e_ar";
 					class CustomAttributes
 					{
@@ -14817,7 +15145,7 @@ class Mission
 						description="        Bravo 2 AAR";
 						isPlayable=1;
 					};
-					id=7448;
+					id=9285;
 					type="potato_e_aar";
 					class CustomAttributes
 					{
@@ -14892,7 +15220,7 @@ class Mission
 						description="        Bravo 2 Grenadier";
 						isPlayable=1;
 					};
-					id=7449;
+					id=9286;
 					type="potato_e_rifleman_02";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -14944,7 +15272,7 @@ class Mission
 						description="        Bravo 2 Rifleman (AT)";
 						isPlayable=1;
 					};
-					id=7450;
+					id=9287;
 					type="potato_e_lat";
 					class CustomAttributes
 					{
@@ -14981,7 +15309,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7445;
+			id=9282;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15026,7 +15354,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item180
+		class Item188
 		{
 			dataType="Group";
 			side="East";
@@ -15038,22 +15366,18 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1326.7161,6.0088239,3089.5173};
-						angles[]={6.2591896,0.00099483761,6.2192721};
+						position[]={1366.08,4.0760107,3063.291};
 					};
 					side="East";
-					flags=6;
+					flags=7;
 					class Attributes
 					{
-						skill=0.60000002;
-						rank="LIEUTENANT";
-						lock="UNLOCKED";
-						name="OPF_PL2";
-						description="  2nd Platoon Leader@ 2ND PLT";
+						name="say2";
+						description="     Furat Squad Leader@   FURAT";
 						isPlayable=1;
 					};
-					id=7452;
-					type="potato_e_plt";
+					id=9289;
+					type="potato_e_sf_sl";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15065,7 +15389,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="9,5,6";
+									value="0,3,6";
 								};
 							};
 						};
@@ -15077,120 +15401,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1331.8973,5.5694518,3086.9148};
-						angles[]={6.2551923,0.00099483761,6.2073312};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="LIEUTENANT";
-						name="OPF_PLM2";
-						description="  Medical Officer";
-						isPlayable=1;
-					};
-					id=7453;
-					type="potato_e_plm";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="potato_markers_addMarker";
-							expression="[_this, _value] call potato_markers_fnc_setMarker;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="2MO,16,white,\z\potato\addons\markers\data\unknown.paa";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="potato_radios_radio";
-							expression="[_this, _value] call potato_radios_fnc_setChannels";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="9,5,10";
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=7451;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF 2PL";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_markers_addMarker";
-					expression="[_this, _value] call potato_markers_fnc_setMarker;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item181
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1366.08,4.0760064,3063.2908};
-					};
-					side="East";
-					flags=7;
-					class Attributes
-					{
-						name="say2";
-						description="     Furat Squad Leader@   FURAT";
-						isPlayable=1;
-					};
-					id=7455;
-					type="potato_e_sf_sl";
-					atlOffset=-4.7683716e-007;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1369.4869,4.0556564,3063.5637};
+						position[]={1369.4871,4.0556598,3063.564};
 					};
 					side="East";
 					flags=5;
@@ -15200,15 +15411,31 @@ class Mission
 						description="     Furat Medic";
 						isPlayable=1;
 					};
-					id=7456;
+					id=9290;
 					type="potato_e_sf_sm";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,3,6";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7454;
-			atlOffset=-4.7683716e-007;
+			id=9288;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15227,7 +15454,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item182
+		class Item189
 		{
 			dataType="Group";
 			side="East";
@@ -15239,7 +15466,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1367.4459,4.0260186,3059.3186};
+						position[]={1367.446,4.0260234,3059.3191};
 					};
 					side="East";
 					flags=7;
@@ -15248,9 +15475,25 @@ class Mission
 						description="        Furat 1 Fire Team Leader@     F1";
 						isPlayable=1;
 					};
-					id=7460;
+					id=9292;
 					type="potato_e_sf_ftl";
-					atlOffset=-4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,3,3";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -15266,7 +15509,7 @@ class Mission
 						description="        Automatic Rifleman";
 						isPlayable=1;
 					};
-					id=7461;
+					id=9293;
 					type="potato_e_sf_ar";
 					atlOffset=4.7683716e-007;
 				};
@@ -15284,7 +15527,7 @@ class Mission
 						description="        AAR";
 						isPlayable=1;
 					};
-					id=7462;
+					id=9294;
 					type="potato_e_sf_aar";
 					atlOffset=2.3841858e-007;
 				};
@@ -15292,8 +15535,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7459;
-			atlOffset=-4.7683716e-007;
+			id=9291;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15312,7 +15554,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item183
+		class Item190
 		{
 			dataType="Group";
 			side="East";
@@ -15324,7 +15566,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1364.9716,4.0364428,3058.7908};
+						position[]={1364.972,4.0364447,3058.791};
 					};
 					side="East";
 					flags=7;
@@ -15333,8 +15575,25 @@ class Mission
 						description="        Furat 2 Fire Team Leader@     F2";
 						isPlayable=1;
 					};
-					id=7464;
+					id=9296;
 					type="potato_e_sf_ftl";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,3,3";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -15350,7 +15609,7 @@ class Mission
 						description="        RAT";
 						isPlayable=1;
 					};
-					id=7465;
+					id=9297;
 					type="potato_e_sf_lat";
 					atlOffset=4.7683716e-007;
 				};
@@ -15369,14 +15628,14 @@ class Mission
 						description="        Marksman";
 						isPlayable=1;
 					};
-					id=7466;
+					id=9298;
 					type="potato_e_sf_rifleman_02";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7463;
+			id=9295;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15395,7 +15654,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item184
+		class Item191
 		{
 			dataType="Group";
 			side="East";
@@ -15418,7 +15677,7 @@ class Mission
 						description="TNK Commander@TANK1 CREW (Babylon Lion)";
 						isPlayable=1;
 					};
-					id=7468;
+					id=9300;
 					type="potato_e_vicl";
 					class CustomAttributes
 					{
@@ -15454,7 +15713,7 @@ class Mission
 						description="TNK Gunner";
 						isPlayable=1;
 					};
-					id=7469;
+					id=9301;
 					type="potato_e_vicc";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -15490,7 +15749,7 @@ class Mission
 						description="TNK Driver";
 						isPlayable=1;
 					};
-					id=7470;
+					id=9302;
 					type="potato_e_vicd";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -15515,7 +15774,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7467;
+			id=9299;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15547,7 +15806,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item185
+		class Item192
 		{
 			dataType="Group";
 			side="East";
@@ -15570,7 +15829,7 @@ class Mission
 						description="TNK Commander@TANK2 CREW (Babylon Lion)";
 						isPlayable=1;
 					};
-					id=7472;
+					id=9304;
 					type="potato_e_vicl";
 					class CustomAttributes
 					{
@@ -15606,7 +15865,7 @@ class Mission
 						description="TNK Gunner";
 						isPlayable=1;
 					};
-					id=7473;
+					id=9305;
 					type="potato_e_vicc";
 					class CustomAttributes
 					{
@@ -15641,7 +15900,7 @@ class Mission
 						description="TNK Driver";
 						isPlayable=1;
 					};
-					id=7474;
+					id=9306;
 					type="potato_e_vicd";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -15666,7 +15925,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7471;
+			id=9303;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15698,7 +15957,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item186
+		class Item193
 		{
 			dataType="Group";
 			side="East";
@@ -15721,7 +15980,7 @@ class Mission
 						description="TNK Commander@TANK3 CREW (Babylon Lion)";
 						isPlayable=1;
 					};
-					id=7476;
+					id=9308;
 					type="potato_e_vicl";
 					atlOffset=-9.5367432e-007;
 					class CustomAttributes
@@ -15758,7 +16017,7 @@ class Mission
 						description="TNK Gunner";
 						isPlayable=1;
 					};
-					id=7477;
+					id=9309;
 					type="potato_e_vicc";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -15794,7 +16053,7 @@ class Mission
 						description="TNK Driver";
 						isPlayable=1;
 					};
-					id=7478;
+					id=9310;
 					type="potato_e_vicd";
 					atlOffset=9.5367432e-007;
 					class CustomAttributes
@@ -15819,7 +16078,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7475;
+			id=9307;
 			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
@@ -15852,7 +16111,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item187
+		class Item194
 		{
 			dataType="Group";
 			side="East";
@@ -15875,7 +16134,7 @@ class Mission
 						description="IFV Commander@IFV1 CREW (BMP2)";
 						isPlayable=1;
 					};
-					id=7480;
+					id=9312;
 					type="potato_e_vicl";
 					atlOffset=-4.7683716e-007;
 					class CustomAttributes
@@ -15911,7 +16170,7 @@ class Mission
 						description="IFV Driver";
 						isPlayable=1;
 					};
-					id=7481;
+					id=9313;
 					type="potato_e_vicd";
 					atlOffset=-4.7683716e-007;
 					class CustomAttributes
@@ -15936,7 +16195,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7479;
+			id=9311;
 			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
@@ -15982,7 +16241,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item188
+		class Item195
 		{
 			dataType="Group";
 			side="East";
@@ -16005,7 +16264,7 @@ class Mission
 						description="IFV Commander@IFV2 CREW (BMP2)";
 						isPlayable=1;
 					};
-					id=7483;
+					id=9315;
 					type="potato_e_vicl";
 					class CustomAttributes
 					{
@@ -16040,7 +16299,7 @@ class Mission
 						description="IFV Driver";
 						isPlayable=1;
 					};
-					id=7484;
+					id=9316;
 					type="potato_e_vicd";
 					class CustomAttributes
 					{
@@ -16064,7 +16323,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7482;
+			id=9314;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16109,7 +16368,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item189
+		class Item196
 		{
 			dataType="Group";
 			side="East";
@@ -16132,7 +16391,7 @@ class Mission
 						description="IFV Commander@IFV3 CREW (BMP2)";
 						isPlayable=1;
 					};
-					id=7486;
+					id=9318;
 					type="potato_e_vicl";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -16168,7 +16427,7 @@ class Mission
 						description="IFV Driver";
 						isPlayable=1;
 					};
-					id=7487;
+					id=9319;
 					type="potato_e_vicd";
 					class CustomAttributes
 					{
@@ -16192,7 +16451,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7485;
+			id=9317;
 			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
@@ -16238,7 +16497,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item190
+		class Item197
 		{
 			dataType="Group";
 			side="East";
@@ -16261,7 +16520,7 @@ class Mission
 						description="IFV Commander@IFV4 CREW (BMP2)";
 						isPlayable=1;
 					};
-					id=7489;
+					id=9321;
 					type="potato_e_vicl";
 					atlOffset=4.7683716e-007;
 					class CustomAttributes
@@ -16297,7 +16556,7 @@ class Mission
 						description="IFV Driver";
 						isPlayable=1;
 					};
-					id=7490;
+					id=9322;
 					type="potato_e_vicd";
 					class CustomAttributes
 					{
@@ -16321,7 +16580,7 @@ class Mission
 			class Attributes
 			{
 			};
-			id=7488;
+			id=9320;
 			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
@@ -16367,47 +16626,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item191
-		{
-			dataType="Group";
-			side="East";
-			class Attributes
-			{
-			};
-			id=7491;
-			atlOffset=-14.128407;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF AA1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_markers_addMarker";
-					expression="[_this, _value] call potato_markers_fnc_setMarker;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item192
+		class Item198
 		{
 			dataType="Group";
 			side="East";
@@ -16419,121 +16638,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1234.71,6.821198,3122.1091};
-						angles[]={0.079831354,0,0.0877726};
-					};
-					side="East";
-					flags=6;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						description="ZSU Commander@ ZSU23 CREW (ZSU23)";
-						isPlayable=1;
-					};
-					id=7495;
-					type="potato_e_vicl";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="potato_radios_radio";
-							expression="[_this, _value] call potato_radios_fnc_setChannels";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="10,8,6";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1236.5592,7.3204575,3118.2395};
-						angles[]={0.087773547,0,0.095706634};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-						description="AA Driver";
-						isPlayable=1;
-					};
-					id=7496;
-					type="potato_e_vicd";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="potato_radios_radio";
-							expression="[_this, _value] call potato_radios_fnc_setChannels";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="10,8,6";
-								};
-							};
-						};
-						nAttributes=1;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=7494;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="groupID";
-					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF AA2";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="potato_markers_addMarker";
-					expression="[_this, _value] call potato_markers_fnc_setMarker;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item193
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={1264.5588,8.0796738,3122.158};
+						position[]={1264.559,8.0796709,3122.158};
 					};
 					side="East";
 					flags=7;
@@ -16542,16 +16647,32 @@ class Mission
 						description="SAM Leader @ SAM Team1 (Igla)";
 						isPlayable=1;
 					};
-					id=7498;
+					id=9324;
 					type="potato_e_msaml";
-					atlOffset=9.5367432e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,6,6";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1266.4159,8.2390509,3119.8479};
+						position[]={1266.416,8.2390213,3119.8481};
 					};
 					side="East";
 					flags=5;
@@ -16560,16 +16681,31 @@ class Mission
 						description="Gunner";
 						isPlayable=1;
 					};
-					id=7499;
+					id=9325;
 					type="potato_e_msamg";
-					atlOffset=-9.5367432e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,6,6";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7497;
-			atlOffset=9.5367432e-007;
+			id=9323;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16588,7 +16724,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item194
+		class Item199
 		{
 			dataType="Group";
 			side="East";
@@ -16600,7 +16736,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1257.4744,8.2554216,3121.4509};
+						position[]={1257.474,8.2554159,3121.4509};
 					};
 					side="East";
 					flags=7;
@@ -16609,9 +16745,26 @@ class Mission
 						description="SAM Leader @ SAM Team2 (Igla)";
 						isPlayable=1;
 					};
-					id=7501;
+					id=9327;
 					type="potato_e_msaml";
-					atlOffset=9.5367432e-007;
+					atlOffset=-9.5367432e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="potato_radios_radio";
+							expression="[_this, _value] call potato_radios_fnc_setChannels";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="0,6,6";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item1
 				{
@@ -16627,15 +16780,15 @@ class Mission
 						description="Gunner";
 						isPlayable=1;
 					};
-					id=7502;
+					id=9328;
 					type="potato_e_msamg";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7500;
-			atlOffset=9.5367432e-007;
+			id=9326;
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16654,7 +16807,73 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item195
+		class Item200
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1281.5,8.6374331,3092.2971};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						description="Gunner";
+						isPlayable=1;
+					};
+					id=9330;
+					type="potato_e_hatg";
+					atlOffset=-9.5367432e-007;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1283.041,8.5533028,3093.3921};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						description="HAT Leader@HAT (Metis)";
+						isPlayable=1;
+					};
+					id=9331;
+					type="potato_e_hatag";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=9329;
+			atlOffset=-9.5367432e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="OPF HAT";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item201
 		{
 			dataType="Group";
 			side="East";
@@ -16677,7 +16896,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7504;
+					id=9336;
 					type="potato_e_lat";
 				};
 				class Item1
@@ -16696,7 +16915,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7505;
+					id=9337;
 					type="potato_e_lat";
 					atlOffset=-1.9073486e-006;
 				};
@@ -16716,7 +16935,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7506;
+					id=9338;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16736,7 +16955,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7507;
+					id=9339;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16756,7 +16975,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7508;
+					id=9340;
 					type="potato_e_lat";
 					atlOffset=3.8146973e-006;
 				};
@@ -16776,7 +16995,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7509;
+					id=9341;
 					type="potato_e_lat";
 				};
 				class Item6
@@ -16795,7 +17014,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7510;
+					id=9342;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16815,7 +17034,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7511;
+					id=9343;
 					type="potato_e_lat";
 				};
 				class Item8
@@ -16834,7 +17053,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7512;
+					id=9344;
 					type="potato_e_lat";
 					atlOffset=-1.9073486e-006;
 				};
@@ -16854,7 +17073,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7513;
+					id=9345;
 					type="potato_e_lat";
 				};
 				class Item10
@@ -16873,7 +17092,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7514;
+					id=9346;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16893,7 +17112,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7515;
+					id=9347;
 					type="potato_e_lat";
 				};
 				class Item12
@@ -16912,7 +17131,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7516;
+					id=9348;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16932,7 +17151,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7517;
+					id=9349;
 					type="potato_e_lat";
 				};
 				class Item14
@@ -16951,7 +17170,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7518;
+					id=9350;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -16971,7 +17190,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7519;
+					id=9351;
 					type="potato_e_lat";
 				};
 				class Item16
@@ -16990,7 +17209,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7520;
+					id=9352;
 					type="potato_e_lat";
 				};
 				class Item17
@@ -17009,7 +17228,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7521;
+					id=9353;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -17029,7 +17248,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7522;
+					id=9354;
 					type="potato_e_lat";
 				};
 				class Item19
@@ -17048,7 +17267,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7523;
+					id=9355;
 					type="potato_e_lat";
 				};
 				class Item20
@@ -17067,7 +17286,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7524;
+					id=9356;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -17087,7 +17306,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7525;
+					id=9357;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -17107,7 +17326,7 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7526;
+					id=9358;
 					type="potato_e_lat";
 					atlOffset=1.9073486e-006;
 				};
@@ -17127,14 +17346,14 @@ class Mission
 						description="JIP SLOT@JOIN IN PROGRESS";
 						isPlayable=1;
 					};
-					id=7527;
+					id=9359;
 					type="potato_e_lat";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=7503;
+			id=9335;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17153,23 +17372,157 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item196
+		class Item202
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1234.8931,6.2812295,3129.1865};
-				angles[]={0.071872659,0,0.067893311};
+				position[]={2996.8682,8.0898151,5630.7485};
+				angles[]={0.0039967569,3.5486991,0.0080009829};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				name="east_aa_1";
 			};
-			id=7528;
-			type="CFP_O_IQARMY_ZSU_23_4_01";
-			atlOffset=-4.7683716e-007;
+			id=9360;
+			type="MASH";
+			atlOffset=4.6253204e-005;
+		};
+		class Item203
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2998.5645,6.9185157,5629.0317};
+			};
+			id=9361;
+			type="potato_missionModules_sideMarker";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="potato_missionModules_direction";
+					expression="_this setVariable ['direction',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="potato_missionModules_color";
+					expression="_this setVariable ['color',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="ColorBlack";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="potato_missionModules_text";
+					expression="_this setVariable ['text',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Field Hospital";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="potato_missionModules_icon";
+					expression="_this setVariable ['icon',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="mil_dot_noShadow";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="potato_missionModules_civilian";
+					expression="_this setVariable ['civilian',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="potato_missionModules_east";
+					expression="_this setVariable ['east',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="potato_missionModules_independent";
+					expression="_this setVariable ['independent',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="potato_missionModules_west";
+					expression="_this setVariable ['west',_value, true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=8;
+			};
+		};
+		class Item204
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1281.5477,8.8441772,3094.761};
+				angles[]={0,0,6.2272477};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=9363;
+			type="Box_IED_Exp_F";
+			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17181,24 +17534,43 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="[[[[""CUP_arifle_AKS74U"",""CUP_launch_RPG18"",""FirstAidKit"",""Medikit""],[2,1,10,1]],[[""CUP_30Rnd_545x39_AK_M"",""CUP_RPG18_M"",""SmokeShell"",""SmokeShellOrange"",""Chemlight_red""],[20,2,2,2,2]],[[""ToolKit""],[1]],[[""CUP_B_AlicePack_Khaki""],[4]]],false]";
+							value="[[[[],[]],[[""Vorona_HEAT""],[10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
-				class Attribute1
+				nAttributes=1;
+			};
+		};
+		class Item205
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8990.3643,20.210529,9363.6094};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=9364;
+			type="Box_IED_Exp_F";
+			class CustomAttributes
+			{
+				class Attribute0
 				{
-					property="potato_setVehicleAmmo_vehAmmoAttribute";
-					expression="[_this, _value] call potato_setVehicleAmmo_fnc_initVehicle";
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="[[[[],[]],[[""MRAWS_HEAT_F""],[10]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
 	};

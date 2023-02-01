@@ -16,13 +16,13 @@
 #define SFCAMO_HEADGEAR "PLOT_ARMOR_H_No_Hat"
 // Rifle
 #define RIFLE "CUP_arifle_AK47"
-#define RIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:10",
+#define RIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:5",
 #define RIFLE_ATTACHMENTS ""
 #define AR_ATTACHMENTS RIFLE_ATTACHMENTS, ""
 #define ALT_OPTICS "optic_Aco","CUP_optic_CompM2_Black","CUP_optic_TrijiconRx01_black","CUP_optic_MRad",STANAG_OPTICS,WARSAW_OPTICS
 // GL Rifle
 #define GLRIFLE "CUP_arifle_AK47_GL"
-#define GLRIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:10"
+#define GLRIFLE_MAG "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M:5"
 #define GLRIFLE_MAG_FLARE "UGL_FlareWhite_F:4"
 #define GLRIFLE_MAG_SMOKE "1Rnd_Smoke_Grenade_shell:6","1Rnd_SmokeRed_Grenade_shell:4","1Rnd_SmokeBlue_Grenade_shell:4",GLRIFLE_MAG_FLARE
 #define GLRIFLE_MAG_HE "1Rnd_HE_Grenade_shell:2"
@@ -54,10 +54,10 @@
 #define HMG_TRI_LO 
 #define HMG_MAG 
 //HAT
-#define HAT 
+#define HAT "launch_O_Vorona_green_F"
 #define HAT_TRI_HI 
 #define HAT_TRI_LO 
-#define HAT_MAG 
+#define HAT_MAG "Vorona_HEAT"
 // SAM
 #define SAM "CUP_launch_Igla"
 #define SAM_MAG 
@@ -93,6 +93,12 @@ class CUP_O_Ural_Reammo_CHDKZ {
 	TransportMagazines[] = {RIFLE_MAG,RIFLE_MAG,RIFLE_MAG,RIFLE_MAG,CARBINE_MAG,CARBINE_MAG,GLRIFLE_MAG,GLRIFLE_MAG,AR_MAG,AR_MAG,AR_MAG,AR_MAG,MMG_MAG,MMG_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,GLRIFLE_MAG_SMOKE,MAT_MAG,BASE_GRENADES,BASE_GRENADES,BASE_GRENADES,BASE_GRENADES};
 	TransportItems[] = {TOOLKIT};
 };
+
+class CFP_O_IQARMY_Ural_ZU_23_01 {
+	TransportWeapons[] = {SAM,SAM,SAM,SAM,SAM,SAM,SAM};
+	TransportItems[] = {TOOLKIT};
+};
+
 
 class Car {
   TransportWeapons[] = {AT};
@@ -139,7 +145,7 @@ class rifleman {// rifleman
   backpackItems[] = {BASE_MEDICAL};
   weapons[] = {RIFLE};
   magazines[] = {RIFLE_MAG,BASE_GRENADES};
-  items[] = {TOOLS,RADIO_SR};
+  items[] = {TOOLS};
   linkedItems[] = {LINKED};
   attachments[] = {RIFLE_ATTACHMENTS};
   opticChoices[] = {ALT_OPTICS};
@@ -157,7 +163,7 @@ class sf_rifleman {// Base SF
   backpackItems[] = {BASE_MEDICAL};
   weapons[] = {RIFLE};
   magazines[] = {RIFLE_MAG,BASE_GRENADES};
-  items[] = {TOOLS,RADIO_SR};
+  items[] = {TOOLS};
   linkedItems[] = {LINKED};
   attachments[] = {RIFLE_ATTACHMENTS};
   opticChoices[] = {ALT_OPTICS};
@@ -176,7 +182,7 @@ class sf_rifleman_02 {// Base SF
   backpackItems[] = {BASE_MEDICAL};
   weapons[] = {"CUP_srifle_SVD"};
   magazines[] = {"CUP_10Rnd_762x54_SVD_M:5",BASE_GRENADES};
-  items[] = {TOOLS,RADIO_SR};
+  items[] = {TOOLS};
   linkedItems[] = {LINKED};
   attachments[] = {"cup_muzzle_snds_kzrzp_svd","cup_svd_camo_d","cup_optic_pso_3"};
   opticChoices[] = {ALT_OPTICS};
@@ -194,14 +200,14 @@ class sf_lat: sf_rifleman {// SF LAT
 class sf_ftl: sf_rifleman {// SF FTL
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
-  items[] += {LEADER_TOOLS};
+  items[] += {LEADER_TOOLS,RADIO_MR};
   
 };
 class sf_sl: sf_ftl {// SF SL
   handguns[] = {PISTOL};
   magazines[] += {PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,RANGE_FINDER};
-  items[] += {RADIO_LR};
+  linkedItems[] = {LINKED,RANGE_FINDER};
+  items[] += {RADIO_LR,RADIO_SR};
 };
 class sf_sm: sf_ftl {// Medic
   magazines[] = {CARBINE_MAG,MEDIC_GRENADES};
@@ -230,12 +236,12 @@ class ftl: rifleman {// FTL
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
   items[] += {LEADER_TOOLS,RADIO_MR};
-  linkedItems[] += {LEADER_LINKED,BINOS};
+  linkedItems[] += {BINOS};
 };
 class sl: ftl {// SL
   handguns[] = {PISTOL};
   magazines[] += {PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,RANGE_FINDER};
+  linkedItems[] = {LINKED,RANGE_FINDER};
   items[] += {RADIO_LR};
 };
 class plt: sl {// Platoon Leader
@@ -252,7 +258,7 @@ class uav: rifleman { //UAV
 };
 class fac: coy {// FAC
   magazines[] = {GLRIFLE_MAG,SIDE_FAC_GRENADES,"Laserbatteries",PISTOL_MAG};
-  linkedItems[] = {LINKED,LEADER_LINKED,"CUP_LRTV"};
+  linkedItems[] = {LINKED,"CUP_LRTV"};
 };
 
 
@@ -355,14 +361,14 @@ class hatl: sl {// HAT Lead
   items[] += {BASE_MEDICAL};
 };
 class hatg: rifleman {// HAT Gunner
-  backpack[] = {CARRYALL};
-  magazines[] += {HAT_MAG};
-  launchers[] = {HAT};
+  backpack[] = {B_Carryall_oli};
+  magazines[] += {"Vorona_HEAT"};
+  launchers[] = {"launch_O_Vorona_green_F"};
 };
 class hatag: rifleman {// HAT Spotter
-  backpack[] = {CARRYALL};
-  magazines[] += {HAT_MAG};
-  launchers[] = {HAT_TRI_HI};
+  backpack[] = {B_Carryall_oli};
+  magazines[] += {"Vorona_HEAT:3"};
+
 };
 
 //SAM
