@@ -200,13 +200,13 @@ class sf_lat: sf_rifleman {// SF LAT
 class sf_ftl: sf_rifleman {// SF FTL
   weapons[] = {GLRIFLE};
   magazines[] = {GLRIFLE_MAG,GLRIFLE_MAG_HE,GLRIFLE_MAG_SMOKE,LEADER_GRENADES};
-  items[] += {LEADER_TOOLS,RADIO_MR};
+  items[] += {LEADER_TOOLS,RADIO_MR,BINOS};
   
 };
 class sf_sl: sf_ftl {// SF SL
   handguns[] = {PISTOL};
   magazines[] += {PISTOL_MAG};
-  linkedItems[] = {LINKED,RANGE_FINDER};
+  linkedItems[] = {LINKED,BINOS};
   items[] += {RADIO_LR,RADIO_SR};
 };
 class sf_sm: sf_ftl {// Medic

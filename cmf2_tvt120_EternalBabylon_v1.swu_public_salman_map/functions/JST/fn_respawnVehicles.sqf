@@ -4,24 +4,18 @@ if(!isServer) exitWith {};
 West: 
 
 Tanks
-M1A1 Abrams (20 min)
-T-72 (20 min)
+M1A1 Abrams (25 min)  CFP_B_USARMY_2003_M1A1_Abrams_DES_01
+T-72 (25 min) CFP_O_IQARMY_T72_01
 
 
 Combat Vehicles
-M2A2 Bradley (15min)
-BMP2 (15min)
-Transport/Support (5min)
+M2A2 Bradley (20min) CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01
+BMP2 (20min) CFP_O_IQARMY_BMP_2_01 
+Transport/Support (5min) CFP_O_IQARMY_Ural_01 
 
 
 Anti-Air Vehicles
-ZSU-23 Shilka  (25min)
-ZU-23 Truck (20min)
-
-
-Artillery
-
-D-30 122m Howitzer (30min)
+ZU-23 Truck (20min) CFP_O_IQARMY_Ural_ZU_23_01
 
 Aircraft
 A-10 (30min)
@@ -100,7 +94,23 @@ AllowedAirCrew =
 
 // banned magazines
 VehBannedMagazines =
-[];
+[
+"CUP_340Rnd_TE1_Green_Tracer_30mmHEIF_2A42_M",
+"CUP_160Rnd_TE1_Green_Tracer_30mmAPBC_2A42_M",
+"CUP_340Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
+"CUP_1Rnd_TE1_Green_Tracer_125mm_3OF82_M",
+"CUP_230Rnd_TE1_Red_Tracer_25mm_M242_HE",
+"CUP_20Rnd_TE1_Red_Tracer_120mmHE_M256_Cannon_M"
+];
+
+/*
+magazines to be added :
+T-72 : "CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M" 30x rounds per tank
+BMP2 : "CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M" 2x Magazines
+
+
+*/
+
 
 /*
 END USER CONFIG
