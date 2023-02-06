@@ -1,75 +1,52 @@
 if(!isServer) exitWith {};
 
-/**
-West: 
-
-Tanks
-M1A1 Abrams (25 min)  CFP_B_USARMY_2003_M1A1_Abrams_DES_01
-T-72 (25 min) CFP_O_IQARMY_T72_01
-
-
-Combat Vehicles
-M2A2 Bradley (20min) CFP_B_USARMY_2003_M2A2_Bradley_IFV_DES_01
-BMP2 (20min) CFP_O_IQARMY_BMP_2_01 
-Transport/Support (5min) CFP_O_IQARMY_Ural_01 
-
-
-Anti-Air Vehicles
-ZU-23 Truck (20min) CFP_O_IQARMY_Ural_ZU_23_01
-
-Aircraft
-A-10 (30min)
-
-
- */
-
+// Master array: [variable name, crew locked boolean, respawn in seconds, custom function, ticket cost]
 CCO_vehs =
 [
 	//WEST
-	[west_tank_1,	true,	(25*60),	{}],
-	[west_tank_2,	true,	(25*60),	{}],
-	[west_tank_3,	true,	(25*60),	{}],
-	[west_ifv_1,	true,	(20*60),	{}],
-	[west_ifv_2,	true,	(20*60),	{}],
-	[west_ifv_3,	true,	(20*60),	{}],
-	[west_ifv_4,	true,	(20*60),	{}],
-	[west_truck_1,	false,	(5*60),		{}],
-	[west_truck_2,	false,	(5*60),		{}],
-	[west_truck_3,	false,	(5*60),		{}],
-	[west_truck_4,	false,	(5*60),		{}],
-	[west_truck_5,	false,	(5*60),		{}],
-	[west_truck_6,	false,	(5*60),		{}],
-	[west_truck_7,	false,	(5*60),		{}],
-	[west_car_1,	false,	(5*60),		{}],
-	[west_car_2,	false,	(5*60),		{}],
-	[west_car_3,	false,	(5*60),		{}],
-	[west_car_4,	false,	(5*60),		{}],
-	[west_car_5,	false,	(5*60),		{}],
-	[west_plane_1,	true,	(30*60),	{}],
-	[west_heli_1,	true,	(15*60),	{}],
+	[west_tank_1,	true,	(25*60),	{},		4],
+	[west_tank_2,	true,	(25*60),	{},		4],
+	[west_tank_3,	true,	(25*60),	{},		4],
+	[west_ifv_1,	true,	(20*60),	{},		4],
+	[west_ifv_2,	true,	(20*60),	{},		4],
+	[west_ifv_3,	true,	(20*60),	{},		4],
+	[west_ifv_4,	true,	(20*60),	{},		4],
+	[west_truck_1,	false,	(5*60),		{},		2],
+	[west_truck_2,	false,	(5*60),		{},		2],
+	[west_truck_3,	false,	(5*60),		{},		2],
+	[west_truck_4,	false,	(5*60),		{},		2],
+	[west_truck_5,	false,	(5*60),		{},		2],
+	[west_truck_6,	false,	(5*60),		{},		2],
+	[west_truck_7,	false,	(5*60),		{},		2],
+	[west_car_1,	false,	(5*60),		{},		2],
+	[west_car_2,	false,	(5*60),		{},		2],
+	[west_car_3,	false,	(5*60),		{},		2],
+	[west_car_4,	false,	(5*60),		{},		2],
+	[west_car_5,	false,	(5*60),		{},		2],
+	[west_plane_1,	true,	(30*60),	{},		7],
+	[west_heli_1,	true,	(15*60),	{},		3],
 	//EAST
-	[east_tank_1,	true,	(25*60),	{}],
-	[east_tank_2,	true,	(25*60),	{}],
-	[east_tank_3,	true,	(25*60),	{}],
-	[east_aa_1,		false,	(20*60),	{}],
-	[east_aa_2,		false,	(20*60),	{}],
-	[east_ifv_1,	true,	(20*60),		{}],
-	[east_ifv_2,	true,	(20*60),		{}],
-	[east_ifv_3,	true,	(20*60),		{}],
-	[east_ifv_4,	true,	(20*60),		{}],
-	[east_truck_1,	false,	(5*60),		{}],
-	[east_truck_2,	false,	(5*60),		{}],
-	[east_truck_3,	false,	(5*60),		{}],
-	[east_truck_4,	false,	(5*60),		{}],
-	[east_truck_5,	false,	(5*60),		{}],
-	[east_truck_6,	false,	(5*60),		{}],
-	[east_truck_7,	false,	(5*60),		{}],
-	[east_car_1,	false,	(5*60),		{}],
-	[east_car_2,	false,	(5*60),		{}]	
-
+	[east_tank_1,	true,	(25*60),	{},		4],
+	[east_tank_2,	true,	(25*60),	{},		4],
+	[east_tank_3,	true,	(25*60),	{},		4],
+	[east_aa_1,		false,	(20*60),	{},		4],
+	[east_aa_2,		false,	(20*60),	{},		4],
+	[east_ifv_1,	true,	(20*60),	{},		4],
+	[east_ifv_2,	true,	(20*60),	{},		4],
+	[east_ifv_3,	true,	(20*60),	{},		4],
+	[east_ifv_4,	true,	(20*60),	{},		4],
+	[east_truck_1,	false,	(5*60),		{},		2],
+	[east_truck_2,	false,	(5*60),		{},		2],
+	[east_truck_3,	false,	(5*60),		{},		2],
+	[east_truck_4,	false,	(5*60),		{},		2],
+	[east_truck_5,	false,	(5*60),		{},		2],
+	[east_truck_6,	false,	(5*60),		{},		2],
+	[east_truck_7,	false,	(5*60),		{},		2],
+	[east_car_1,	false,	(5*60),		{},		2],
+	[east_car_2,	false,	(5*60),		{},		2]
 ];
 
-// input allowed crew classes for GROUND vehicles
+// Classnames of ground crew
 AllowedGroundCrew =
 [
 	"potato_w_vicd",
@@ -80,7 +57,7 @@ AllowedGroundCrew =
 	"potato_e_vicl",
 	"potato_e_vicd"
 ];
-// input allowed crew classes for AIR vehicles
+// Classnames of air crew
 AllowedAirCrew =
 [
 	"potato_w_pilot",
@@ -92,25 +69,24 @@ AllowedAirCrew =
 	"potato_e_cc"
 ];
 
-// banned magazines
+// Magazines to remove from all vehicles
 VehBannedMagazines =
 [
-"CUP_340Rnd_TE1_Green_Tracer_30mmHEIF_2A42_M",
-"CUP_160Rnd_TE1_Green_Tracer_30mmAPBC_2A42_M",
-"CUP_340Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
-"CUP_1Rnd_TE1_Green_Tracer_125mm_3OF82_M",
-"CUP_230Rnd_TE1_Red_Tracer_25mm_M242_HE",
-"CUP_20Rnd_TE1_Red_Tracer_120mmHE_M256_Cannon_M"
+	"CUP_340Rnd_TE1_Green_Tracer_30mmHEIF_2A42_M",
+	"CUP_160Rnd_TE1_Green_Tracer_30mmAPBC_2A42_M",
+	"CUP_340Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
+	"CUP_1Rnd_TE1_Green_Tracer_125mm_3OF82_M",
+	"CUP_230Rnd_TE1_Red_Tracer_25mm_M242_HE",
+	"CUP_20Rnd_TE1_Red_Tracer_120mmHE_M256_Cannon_M",
+	"CUP_1Rnd_TE1_Green_Tracer_125mm_3BM42M_M"
 ];
 
-/*
-magazines to be added :
-T-72 : "CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M" 30x rounds per tank
-BMP2 : "CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M" 2x Magazines
-
-
-*/
-
+// Magazines to add to vehicles: [classname, [0], amount]
+ReplaceMagazines = 
+[
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 20],
+	["CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M", [0], 1]
+];
 
 /*
 END USER CONFIG
@@ -120,6 +96,27 @@ END USER CONFIG
 publicVariable "CCO_vehs";
 publicVariable "AllowedGroundCrew";
 publicVariable "AllowedAirCrew";
+
+// Adds a vehicle cost to vehicles defined above
+TNK_fnc_vehicleTicketCost = 
+{
+	params["_veh","_cost"];
+
+	if (isNil "_cost" or _cost isEqualTo 0) exitWith {};
+
+	private _side = str _veh splitString "_";
+	private _side = _side select 0;
+
+	if (_side isEqualTo "east") then {
+		Tun_respawn_tickets_east = Tun_respawn_tickets_east - _cost;
+		publicVariable "Tun_respawn_tickets_east";
+		//[format ["Subtracted %1 tickets from %2",_cost,_side]] remoteExec ["systemChat", 0];
+	} else {
+		Tun_respawn_tickets_west = Tun_respawn_tickets_west - _cost;
+		publicVariable "Tun_respawn_tickets_west";
+		//[format ["Subtracted %1 tickets from %2",_cost,_side]] remoteExec ["systemChat", 0];
+	}
+};
 
 // adds handlers to vehicles that start respawn process and remove themselves
 JST_fnc_addVehRespawnHandlers =
@@ -146,6 +143,8 @@ JST_fnc_addVehRespawnHandlers =
 			} forEach (attachedObjects _unit);
 			// respawn on server
 			[_unit, _vehArray] remoteExec ["JST_fnc_vehRespawn", 2];
+			// Cost ticket
+			[_unit, _vehArray select 11] remoteExec ["TNK_fnc_vehicleTicketCost", 2];
 		}
 	];
 	// deleted: remove all handlers, start respawn loop
@@ -257,7 +256,7 @@ JST_fnc_vehRespawn =
 	params ["_unit", "_vehArray"];
 	if (!isServer) exitWith {};
 	// pull respawn data from dead unit
-	_vehArray params ["_unitVar", "_restricted", "_time", "_pos", "_vDirAndUp", "_class", "_config", "_name", "_attObjs", "_fnc", "_sideLocInfo"];
+	_vehArray params ["_unitVar", "_restricted", "_time", "_pos", "_vDirAndUp", "_class", "_config", "_name", "_attObjs", "_fnc", "_sideLocInfo", "_ticketCost"];
 	// wait respawn time
 	UIsleep _time;
 	// find nearest safe position to respawn point
@@ -303,11 +302,6 @@ JST_fnc_vehRespawn =
 	_unitVar setVariable ["sideLocInfo", _sideLocInfo, true];
 	// run any functions assigned to this vehicle
 	[_unitVar] call _fnc;
-	// CCO16 add psyops actions if loudspeaker attached
-	if ((_attObjs findIf {(_x select 0) isEqualTo "Land_Loudspeakers_F"}) > -1) then
-	{
-		[_unitVar, EAST] remoteExec ["JST_fnc_psy_addMenuAction", 0, true];
-	};
 	// Broadcast respawn notification
 	{
 		[
@@ -338,6 +332,7 @@ waitUntil {time > 3};
 	private _name = vehicleVarName _unitVar;
 	private _fnc = _x select 3;
 	private _configSide = (getNumber (configfile >> "CfgVehicles" >> typeOf _unitVar >> "side"));
+	private _ticketCount = _x select 4;
 	// custom mission maker input for respawn notification [array of sides to notify, location name]
 	// defaults to generic stuff if no input
 	private _sideLocInfo = _unitVar getVariable ["sideLocInfo", [[_configSide],"MAIN"]];
@@ -351,27 +346,18 @@ waitUntil {time > 3};
 		_attObjs pushBack [_type, _relPos, [_vDir, _vUp]];
 	} forEach (attachedObjects _unitVar);
 	// store data on vehicle
-	private _vehArray = [_unitVar, _restricted, _time, _pos, [_vDir, _vUp], _class, _config, _name, _attObjs, _fnc, _sideLocInfo];
+	private _vehArray = [_unitVar, _restricted, _time, _pos, [_vDir, _vUp], _class, _config, _name, _attObjs, _fnc, _sideLocInfo, _ticketCount];
 	_unitVar setVariable ["CCO_vehArray", _vehArray, true];
-	// TBA CCE Tank HE catch
-	if (_class isEqualTo "gm_gc_army_t55") then {
-		_unitVar removeMagazinesTurret ["gm_21Rnd_100x695mm_he_of412",[0]];
-		for [{ _i = 0 }, { _i < 4 }, { _i = _i + 1 }] do
-		{
-			_unitVar addMagazineTurret ["gm_1Rnd_100x695mm_he_of412", [0]];
-		};
-	};
-	if (_class isEqualTo "gm_gc_army_pt76b") then {
-		_unitVar removeMagazinesTurret ["gm_24Rnd_76x385mm_he_of350",[0]];
-		for [{ _i = 0 }, { _i < 3 }, { _i = _i + 1 }] do
-		{
-			_unitVar addMagazineTurret ["gm_1Rnd_76x385mm_he_of350", [0]];
-		};
-	};
 	// Remove banned magazines
 	{
 		_unitVar removeMagazinesTurret [_x, [0]];
 	} forEach VehBannedMagazines;
+	// Add custom magazines
+	{
+		_unitVar addMagazineTurret _x
+	} forEach ReplaceMagazines;
+	// Save loadout for ace rearm
+	_unitVar setVariable ["ace_rearm_scriptedLoadout", true, true];
 	// run any functions assigned to this vehicle
 	[_unitVar] spawn _fnc;
 	// add handlers
