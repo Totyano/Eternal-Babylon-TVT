@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=9884;
+		nextID=9888;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3483.7649,22.546656,6251.2725};
-		dir[]={0.0031988164,-0.63293576,0.77419972};
-		up[]={0.0026151277,0.77420384,0.63293159};
-		aside[]={0.99999273,-2.4647306e-010,-0.0041317479};
+		pos[]={3820.1367,837.1394,5488.168};
+		dir[]={-0.14149095,-0.73968875,0.65792364};
+		up[]={-0.15552013,0.67294806,0.72315627};
+		aside[]={0.97765881,1.9485014e-007,0.21025261};
 	};
 };
 binarizationWanted=0;
@@ -658,7 +658,7 @@ class CustomAttributes
 				class data
 				{
 					singleType="BOOL";
-					value=1;
+					value=0;
 				};
 			};
 		};
@@ -671,7 +671,7 @@ class CustomAttributes
 				class data
 				{
 					singleType="STRING";
-					value="15";
+					value="45";
 				};
 			};
 		};
@@ -684,7 +684,7 @@ class CustomAttributes
 				class data
 				{
 					singleType="STRING";
-					value="75";
+					value="180";
 				};
 			};
 		};
@@ -4753,7 +4753,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=247;
+		items=251;
 		class Item0
 		{
 			dataType="Logic";
@@ -6638,7 +6638,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5846.292,29.963587,5641.7827};
+						position[]={5846.9121,29.963087,5641.7056};
 						angles[]={0,5.9043965,0};
 					};
 					side="Civilian";
@@ -6660,7 +6660,7 @@ class Mission
 					};
 					id=4032;
 					type="C_man_p_beggar_F";
-					atlOffset=0.00029563904;
+					atlOffset=0.09838295;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6672,11 +6672,37 @@ class Mission
 								class data
 								{
 									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
 									value=0;
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=3;
 					};
 				};
 			};
@@ -6684,7 +6710,7 @@ class Mission
 			{
 			};
 			id=4031;
-			atlOffset=0.00029563904;
+			atlOffset=0.09838295;
 		};
 		class Item59
 		{
@@ -6732,11 +6758,37 @@ class Mission
 								class data
 								{
 									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
 									value=0;
 								};
 							};
 						};
-						nAttributes=1;
+						nAttributes=3;
 					};
 				};
 			};
@@ -6940,16 +6992,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3483.1272,10.562685,6268.3525};
-				angles[]={0,0,0.0039967569};
+				position[]={3483.127,10.562843,6268.353};
+				angles[]={0,0,0.0039968039};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="intel1";
 			};
 			id=4048;
 			type="Land_Document_01_F";
+			atlOffset=0.00015926361;
 		};
 		class Item71
 		{
@@ -7627,7 +7681,7 @@ class Mission
 			class Attributes
 			{
 				name="west_plane_1";
-				pylons=";;;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;CUP_PylonPod_1Rnd_Mk82_M;;;;";
+				pylons=";;;;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;CUP_PylonPod_1Rnd_GBU12_M;;;;;";
 			};
 			id=5568;
 			type="CUP_B_A10_DYN_USA";
@@ -7655,7 +7709,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="";
+							value="[[[-1],""CUP_1350Rnd_TE1_Red_Tracer_30mm_GAU8_M"",0.6]]";
 						};
 					};
 				};
@@ -18161,11 +18215,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9249.8018,20.008797,9437.1992};
+				position[]={9249.8018,20.008799,9437.1992};
 				angles[]={6.2791886,0,0};
 			};
 			id=9875;
 			type="potato_missionModules_sideMarker";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18203,7 +18258,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="Pilot drop-off";
+							value="Extract Area";
 						};
 					};
 				};
@@ -18302,7 +18357,7 @@ class Mission
 			alpha=0.30188709;
 			a=30;
 			b=750;
-			angle=324.40186;
+			angle=324.40182;
 			id=9877;
 		};
 		class Item241
@@ -18394,6 +18449,72 @@ class Mission
 			};
 			id=9883;
 			type="EmptyDetector";
+		};
+		class Item247
+		{
+			dataType="Trigger";
+			position[]={5835.6689,29.309385,5627.335};
+			class Attributes
+			{
+				condition="!alive p1";
+				onActivation="""A pilot has been killed!"" remoteExec [""hint"", 0];";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+				triggerInterval=5;
+			};
+			id=9884;
+			type="EmptyDetector";
+		};
+		class Item248
+		{
+			dataType="Trigger";
+			position[]={5850.1489,29.641191,5634.7109};
+			class Attributes
+			{
+				condition="!alive p2";
+				onActivation="""A pilot has been killed!"" remoteExec [""hint"", 0];";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+				triggerInterval=5;
+			};
+			id=9885;
+			type="EmptyDetector";
+		};
+		class Item249
+		{
+			dataType="Trigger";
+			position[]={5841.1021,29.430687,5629.978};
+			class Attributes
+			{
+				condition="!alive p1 && !alive p2";
+				onActivation="""Both pilots have been killed. Continue on mission."" remoteExec [""systemChat"", 0];" \n "[""bt1"",""FAILED""] call BIS_fnc_taskSetState;" \n "[""ot1"",""FAILED""] call BIS_fnc_taskSetState;";
+				sizeA=0;
+				sizeB=0;
+				isServerOnly=1;
+				triggerInterval=5;
+			};
+			id=9886;
+			type="EmptyDetector";
+			atlOffset=-1.9073486e-006;
+		};
+		class Item250
+		{
+			dataType="Trigger";
+			position[]={9248.5615,20.005756,9434.0674};
+			class Attributes
+			{
+				condition="intel1 in thisList";
+				onActivation="""BLUFOR has extracted the WMD intel"" remoteExec [""systemChat"", 0];" \n "[""bt3"",""SUCCEEDED""] call BIS_fnc_taskSetState;" \n "[""ot3"",""FAILED""] call BIS_fnc_taskSetState;";
+				sizeA=25;
+				sizeB=25;
+				isServerOnly=1;
+				triggerInterval=5;
+			};
+			id=9887;
+			type="EmptyDetectorAreaR250";
+			atlOffset=1.9073486e-006;
 		};
 	};
 };
