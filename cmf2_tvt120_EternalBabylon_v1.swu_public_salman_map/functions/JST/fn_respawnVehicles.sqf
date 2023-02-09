@@ -73,7 +73,9 @@ AllowedAirCrew =
 VehBannedMagazines =
 [
 	"CUP_340Rnd_TE1_Green_Tracer_30mmHEIF_2A42_M",
+	"CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M",
 	"CUP_160Rnd_TE1_Green_Tracer_30mmAPBC_2A42_M",
+	"CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M",
 	"CUP_340Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
 	"CUP_1Rnd_TE1_Green_Tracer_125mm_3OF82_M",
 	"CUP_230Rnd_TE1_Red_Tracer_25mm_M242_HE",
@@ -87,12 +89,22 @@ VehBannedMagazines =
 // Magazines to add to vehicles: [classname, [0], amount]
 ReplaceMagazines = 
 [
-	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 20],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1], // It only adds one per mag lol
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
+	["CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M", [0], 1],
 	["CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M", [0], 140],
 	["CUP_70Rnd_TE1_Red_Tracer_25mm_M242_APFSDS", [0], 70],
 	["CUP_70Rnd_TE1_Red_Tracer_25mm_M242_APFSDS", [0], 70],
 	["CUP_8Rnd_AT5_BMP2_M", [0], 2],
-	["CUP_1Rnd_TOW2_M", [0], 2]
+	["CUP_1Rnd_TOW2_M", [0], 1],
+	["CUP_1Rnd_TOW2_M", [0], 1]
 ];
 
 /*
