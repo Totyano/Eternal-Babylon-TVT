@@ -77,6 +77,7 @@ VehBannedMagazines =
 [
 	"CUP_340Rnd_TE1_Green_Tracer_30mmHEIF_2A42_M",
 	"CUP_1Rnd_TE1_Green_Tracer_125mm_3BM69_M",
+	"CUP_1Rnd_TE1_Green_Tracer_125mm_3BK29_M",
 	"CUP_160Rnd_TE1_Green_Tracer_30mmAPBC_2A42_M",
 	"CUP_160Rnd_TE1_Green_Tracer_30mmAP_2A42_M",
 	"CUP_340Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
@@ -86,9 +87,9 @@ VehBannedMagazines =
 	"CUP_1Rnd_TE1_Green_Tracer_125mm_3BM42M_M",
 	"CUP_8Rnd_AT5_BMP2_M",
 	"CUP_70Rnd_TE1_Red_Tracer_25mm_M242_APFSDS",
-	"CUP_1Rnd_TOW2_M"
+	"CUP_1Rnd_TOW2_M",
+	"CUP_2Rnd_TOW2_M"
 ];
-
 // Magazines to add to vehicles: [classname, [0], amount]
 ReplaceMagazines = 
 [
@@ -307,6 +308,12 @@ JST_fnc_vehRespawn =
 	{
 		_unitVar removeMagazinesTurret [_x, [0]];
 	} forEach VehBannedMagazines;
+	// Add custom magazines
+	{
+		_unitVar addMagazineTurret _x
+	} forEach ReplaceMagazines;
+	// Save loadout for ace rearm
+	_unitVar setVariable ["ace_rearm_scriptedLoadout", true, true];
 	// recreate attached objects, if any
 	if ((count _attObjs) > 0) then
 	{
