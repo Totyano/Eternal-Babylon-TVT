@@ -57,6 +57,7 @@ AllowedGroundCrew =
 	"potato_w_sl",
 	"potato_w_coy",
 	"potato_w_plt",
+	"potato_w_engl",
 
 	"potato_e_vicc",
 	"potato_e_coy",
@@ -66,7 +67,8 @@ AllowedGroundCrew =
 	"potato_e_sl",
 	"potato_e_sf_sl",
 	"potato_e_sf_ftl",
-	"potato_e_vicd"
+	"potato_e_vicd",
+	"potato_e_engl"
 ];
 // Classnames of air crew
 AllowedAirCrew =
@@ -129,8 +131,15 @@ ReplaceMagazines =
 	["CUP_8Rnd_AT5_BMP2_M", [0], 2],
 	["CUP_1Rnd_TOW2_M", [0], 1],
 	["CUP_1Rnd_TOW2_M", [0], 1],
-	["CUP_1350Rnd_TE1_Red_Tracer_30mm_GAU8_M", [0], 300]
+	["CUP_1350Rnd_TE1_Red_Tracer_30mm_GAU8_M", [0], 300] // REEEEEEEEEEEEEEEEEEEE
+];
 
+// Logistical vehicles
+LogiVehicles = 
+[
+	"CFP_B_USARMY_2003_MTVR_Repair_DES_01"
+	,"CFP_O_IQARMY_Ural_Repair_01"
+	,"CUP_B_UH60M_Unarmed_US"
 ];
 
 /*
@@ -336,6 +345,12 @@ JST_fnc_vehRespawn =
 	} forEach ReplaceMagazines;
 	// Save loadout for ace rearm
 	_unitVar setVariable ["ace_rearm_scriptedLoadout", true, true];
+	// Logi supply
+	if (_class in LogiVehicles) then {
+		[_unitVar, 999] call ace_cargo_fnc_setSpace;
+		[_unitVar, 30, "ACE_Track", true] call ace_repair_fnc_addSpareParts;
+		[_unitVar, 30, "ACE_Wheel", true] call ace_repair_fnc_addSpareParts;
+	};
 	// recreate attached objects, if any
 	if ((count _attObjs) > 0) then
 	{
@@ -407,6 +422,11 @@ waitUntil {time > 3};
 	{
 		_unitVar addMagazineTurret _x
 	} forEach ReplaceMagazines;
+	if (_class in LogiVehicles) then {
+		[_unitVar, 999] call ace_cargo_fnc_setSpace;
+		[_unitVar, 30, "ACE_Track", true] call ace_repair_fnc_addSpareParts;
+		[_unitVar, 30, "ACE_Wheel", true] call ace_repair_fnc_addSpareParts;
+	};
 	// Save loadout for ace rearm
 	_unitVar setVariable ["ace_rearm_scriptedLoadout", true, true];
 	// run any functions assigned to this vehicle
