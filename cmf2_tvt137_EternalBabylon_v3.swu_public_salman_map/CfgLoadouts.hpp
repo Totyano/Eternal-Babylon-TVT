@@ -32,13 +32,6 @@ class CfgLoadouts {
 		#include "c\loadouts\blank_BLU.hpp"
 	};
 
-	// INDFOR
-	#include "c\loadouts\ind_gear.hpp"
-	class potato_i 
-	{
-		//#include "c\loadouts\blank_IND.hpp"
-	};
-
 	// OPFOR
 	#include "c\loadouts\opf_gear.hpp"
 	class potato_e 
